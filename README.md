@@ -74,6 +74,7 @@ The exact location of these files may depend on the device, emulator, and app ve
 - **Team name:** Team Ransome Radar
 - **Project code:** A3-PS001-TC247
 - **Team lead:** J Chandana
+- **Team member2:** K Teja
 
 ## Team Introduction Video
 YouTube: https://www.youtube.com/watch?v=04T-SjmQzE4

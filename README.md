@@ -3,8 +3,6 @@
 
 **Ransomware Radar** is an Android prototype designed to identify suspicious, ransomware-like file activity within a controlled test environment. It monitors file-system events and applies predefined, rule-based thresholds to raise alerts during safe simulations.
 
-> **Safety note:** This project is designed for controlled lab testing with dummy files. It is an early-warning prototype, not a production antivirus or a guarantee that ransomware will be stopped.
-
 ## Overview
 
 Ransomware can rapidly modify, rename, or delete files. Ransomware Radar explores how bursts of these file operations can provide an early warning signal on Android.

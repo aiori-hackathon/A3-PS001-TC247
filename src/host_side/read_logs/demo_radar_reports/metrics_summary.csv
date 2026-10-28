@@ -1,0 +1,3 @@
+trial,scenario,label,alerted,delay_ms,kill_latency_ms,files_changed,killed_pid,killed_name,benign_killed
+1,A3,attack,True,1174.116,844.686,9,9224,A3,False
+2,B1,benign,False,0.0,0.0,0,-1,none,False

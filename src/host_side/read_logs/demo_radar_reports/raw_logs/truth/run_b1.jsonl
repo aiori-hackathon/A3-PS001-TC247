@@ -1,0 +1,12 @@
+{"ts_ns":1793190234524594900,"run_id":"run_b1","workload":"B1","label":"benign","op":"start"}
+{"ts_ns":1793190234569479200,"run_id":"run_b1","workload":"B1","label":"benign","op":"copy","path":"/data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_001.jpg"}
+{"ts_ns":1793190234703399900,"run_id":"run_b1","workload":"B1","label":"benign","op":"copy","path":"/data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_002.jpg"}
+{"ts_ns":1793190234832403400,"run_id":"run_b1","workload":"B1","label":"benign","op":"copy","path":"/data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_003.jpg"}
+{"ts_ns":1793190234958230800,"run_id":"run_b1","workload":"B1","label":"benign","op":"copy","path":"/data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_004.jpg"}
+{"ts_ns":1793190235102549500,"run_id":"run_b1","workload":"B1","label":"benign","op":"copy","path":"/data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_005.jpg"}
+{"ts_ns":1793190235221305000,"run_id":"run_b1","workload":"B1","label":"benign","op":"copy","path":"/data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_006.jpg"}
+{"ts_ns":1793190235342103800,"run_id":"run_b1","workload":"B1","label":"benign","op":"copy","path":"/data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_007.jpg"}
+{"ts_ns":1793190235514867500,"run_id":"run_b1","workload":"B1","label":"benign","op":"copy","path":"/data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_008.jpg"}
+{"ts_ns":1793190235638097500,"run_id":"run_b1","workload":"B1","label":"benign","op":"copy","path":"/data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_009.jpg"}
+{"ts_ns":1793190235756038700,"run_id":"run_b1","workload":"B1","label":"benign","op":"copy","path":"/data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_0010.jpg"}
+{"ts_ns":1793190235871464500,"run_id":"run_b1","workload":"B1","label":"benign","op":"end"}

@@ -1,0 +1,114 @@
+============================================================================================================
+  PS-001 ANDROID RANSOMWARE EARLY-WARNING MONITOR — FORMATTED LOGS & PERFORMANCE METRICS
+============================================================================================================
+  Generated At        : 2026-10-28 17:54:00 IST
+  Monitored Root      : /data/media/0/radar_ui_sandbox  (Watchers: 4, Baseline Files: 15)
+  Detector Config     : window=5000ms | min_files=6 | min_score=15.0
+------------------------------------------------------------------------------------------------------------
+  1. DERIVED PERFORMANCE METRICS
+------------------------------------------------------------------------------------------------------------
+  * Precision / Recall / F1     : 100.0%  /  100.0%  /  100.0%   (TP=1, FP=0, TN=1, FN=0)
+  * Mean Detection Delay        : 1174.116 ms   (First attack file op -> Alert fired)
+  * Mean Telemetry Window Delay : 1240.317 ms   (First baseline event in window -> Alert fired)
+  * Mean Kill Latency           : 844.686 ms   (Alert fired -> /proc attribution -> SIGKILL)
+  * Mean Total Mitigation Time  : 2018.802 ms   (First attack op -> Attacker process dead)
+  * Mean Files Changed (<Kill)  : 9.0 / 15 files
+  * Benign Workloads Killed     : 0   (Requirement: 0)
+  * Telemetry Volume & Rate     : 73 events (Baseline=35, New=38) | Peak=25 events/sec
+  * Event Type Breakdown        : {"CREATE": 10, "MODIFY": 28, "CLOSE_WRITE": 19, "MOVED_FROM": 8, "MOVED_TO": 8}
+------------------------------------------------------------------------------------------------------------
+  2. PER-WORKLOAD / TRIAL EVALUATION SUMMARY
+------------------------------------------------------------------------------------------------------------
+  #   Workload     Label    Res  Alert   Delay(ms)   KillLat(ms)  Mitig(ms)   Changed   Saved%   Killed Process
+  --------------------------------------------------------------------------------------------------------
+  1   A3           attack   TP   True    1174.116    844.686      2018.802    9/15      40.0     PID 9224 (A3) [ok]
+      -> Alert Score: 38.0 | Reasons: new_file_create(10), baseline_write(6), baseline_rename_ext:txt->locked(5)
+      -> Baseline Files Touched (9): note_1.txt, note_2.txt, note_3.txt, note_4.txt, note_5.txt, note_6.txt, note_7.txt, note_8.txt, note_9.txt
+  2   B1           benign   TN   False   0.000       0.000        0.000       0/15      100.0    None
+------------------------------------------------------------------------------------------------------------
+  3. CHRONOLOGICAL TELEMETRY LOG STREAM (75 entries)
+------------------------------------------------------------------------------------------------------------
+  #    Timestamp        Rel(ms)    Kind    Event Type     Base   Path / Details
+  --------------------------------------------------------------------------------------------------------
+  1    17:53:54.549.796 +0.00      EVENT   CREATE         NO     /data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_001.jpg
+  2    17:53:54.549.982 +0.19      EVENT   MODIFY         NO     /data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_001.jpg
+  3    17:53:54.550.058 +0.26      EVENT   CLOSE_WRITE    NO     /data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_001.jpg
+  4    17:53:54.681.434 +131.64    EVENT   CREATE         NO     /data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_002.jpg
+  5    17:53:54.681.572 +131.78    EVENT   MODIFY         NO     /data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_002.jpg
+  6    17:53:54.681.634 +131.84    EVENT   CLOSE_WRITE    NO     /data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_002.jpg
+  7    17:53:54.811.011 +261.21    EVENT   CREATE         NO     /data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_003.jpg
+  8    17:53:54.811.129 +261.33    EVENT   MODIFY         NO     /data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_003.jpg
+  9    17:53:54.811.172 +261.38    EVENT   CLOSE_WRITE    NO     /data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_003.jpg
+  10   17:53:54.937.168 +387.37    EVENT   CREATE         NO     /data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_004.jpg
+  11   17:53:54.937.228 +387.43    EVENT   MODIFY         NO     /data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_004.jpg
+  12   17:53:54.937.292 +387.50    EVENT   CLOSE_WRITE    NO     /data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_004.jpg
+  13   17:53:55.076.261 +526.47    EVENT   CREATE         NO     /data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_005.jpg
+  14   17:53:55.076.326 +526.53    EVENT   MODIFY         NO     /data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_005.jpg
+  15   17:53:55.076.355 +526.56    EVENT   CLOSE_WRITE    NO     /data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_005.jpg
+  16   17:53:55.200.156 +650.36    EVENT   CREATE         NO     /data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_006.jpg
+  17   17:53:55.200.262 +650.47    EVENT   MODIFY         NO     /data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_006.jpg
+  18   17:53:55.200.301 +650.50    EVENT   CLOSE_WRITE    NO     /data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_006.jpg
+  19   17:53:55.318.131 +768.34    EVENT   CREATE         NO     /data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_007.jpg
+  20   17:53:55.318.164 +768.37    EVENT   MODIFY         NO     /data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_007.jpg
+  21   17:53:55.318.226 +768.43    EVENT   CLOSE_WRITE    NO     /data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_007.jpg
+  22   17:53:55.461.864 +912.07    EVENT   CREATE         NO     /data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_008.jpg
+  23   17:53:55.461.916 +912.12    EVENT   MODIFY         NO     /data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_008.jpg
+  24   17:53:55.461.955 +912.16    EVENT   CLOSE_WRITE    NO     /data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_008.jpg
+  25   17:53:55.616.866 +1067.07   EVENT   CREATE         NO     /data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_009.jpg
+  26   17:53:55.617.032 +1067.24   EVENT   MODIFY         NO     /data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_009.jpg
+  27   17:53:55.617.085 +1067.29   EVENT   CLOSE_WRITE    NO     /data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_009.jpg
+  28   17:53:55.734.518 +1184.72   EVENT   CREATE         NO     /data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_0010.jpg
+  29   17:53:55.734.600 +1184.80   EVENT   MODIFY         NO     /data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_0010.jpg
+  30   17:53:55.734.756 +1184.96   EVENT   CLOSE_WRITE    NO     /data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_0010.jpg
+  31   17:53:56.614.403 +2064.61   EVENT   MODIFY         YES    /data/media/0/radar_ui_sandbox/Documents/note_1.txt
+  32   17:53:56.648.083 +2098.29   EVENT   MODIFY         YES    /data/media/0/radar_ui_sandbox/Documents/note_1.txt
+  33   17:53:56.651.654 +2101.86   EVENT   CLOSE_WRITE    YES    /data/media/0/radar_ui_sandbox/Documents/note_1.txt
+  34   17:53:56.729.317 +2179.52   EVENT   MOVED_FROM     YES    /data/media/0/radar_ui_sandbox/Documents/note_1.txt
+  35   17:53:56.729.602 +2179.81   EVENT   MOVED_TO       NO     /data/media/0/radar_ui_sandbox/Documents/note_1.txt.locked
+  36   17:53:56.916.028 +2366.23   EVENT   MODIFY         YES    /data/media/0/radar_ui_sandbox/Documents/note_2.txt
+  37   17:53:56.978.304 +2428.51   EVENT   MODIFY         YES    /data/media/0/radar_ui_sandbox/Documents/note_2.txt
+  38   17:53:56.984.097 +2434.30   EVENT   CLOSE_WRITE    YES    /data/media/0/radar_ui_sandbox/Documents/note_2.txt
+  39   17:53:57.049.234 +2499.44   EVENT   MOVED_FROM     YES    /data/media/0/radar_ui_sandbox/Documents/note_2.txt
+  40   17:53:57.049.313 +2499.52   EVENT   MOVED_TO       NO     /data/media/0/radar_ui_sandbox/Documents/note_2.txt.locked
+  41   17:53:57.230.814 +2681.02   EVENT   MODIFY         YES    /data/media/0/radar_ui_sandbox/Documents/note_3.txt
+  42   17:53:57.252.993 +2703.20   EVENT   MODIFY         YES    /data/media/0/radar_ui_sandbox/Documents/note_3.txt
+  43   17:53:57.253.665 +2703.87   EVENT   CLOSE_WRITE    YES    /data/media/0/radar_ui_sandbox/Documents/note_3.txt
+  44   17:53:57.316.871 +2767.07   EVENT   MOVED_FROM     YES    /data/media/0/radar_ui_sandbox/Documents/note_3.txt
+  45   17:53:57.316.933 +2767.14   EVENT   MOVED_TO       NO     /data/media/0/radar_ui_sandbox/Documents/note_3.txt.locked
+  46   17:53:57.464.284 +2914.49   EVENT   MODIFY         YES    /data/media/0/radar_ui_sandbox/Documents/note_4.txt
+  47   17:53:57.480.552 +2930.76   EVENT   MODIFY         YES    /data/media/0/radar_ui_sandbox/Documents/note_4.txt
+  48   17:53:57.481.818 +2932.02   EVENT   CLOSE_WRITE    YES    /data/media/0/radar_ui_sandbox/Documents/note_4.txt
+  49   17:53:57.522.335 +2972.54   EVENT   MOVED_FROM     YES    /data/media/0/radar_ui_sandbox/Documents/note_4.txt
+  50   17:53:57.522.373 +2972.58   EVENT   MOVED_TO       NO     /data/media/0/radar_ui_sandbox/Documents/note_4.txt.locked
+  51   17:53:57.660.404 +3110.61   EVENT   MODIFY         YES    /data/media/0/radar_ui_sandbox/Documents/note_5.txt
+  52   17:53:57.673.709 +3123.91   EVENT   MODIFY         YES    /data/media/0/radar_ui_sandbox/Documents/note_5.txt
+  53   17:53:57.674.326 +3124.53   EVENT   CLOSE_WRITE    YES    /data/media/0/radar_ui_sandbox/Documents/note_5.txt
+  54   17:53:57.713.633 +3163.84   EVENT   MOVED_FROM     YES    /data/media/0/radar_ui_sandbox/Documents/note_5.txt
+  55   17:53:57.713.709 +3163.91   EVENT   MOVED_TO       NO     /data/media/0/radar_ui_sandbox/Documents/note_5.txt.locked
+  56   17:53:57.854.720 +3304.92   EVENT   MODIFY         YES    /data/media/0/radar_ui_sandbox/Documents/note_6.txt
+  ********************************************************************************************************
+  57   17:53:57.854.720 +3304.92   ALERT   ALERT_FIRED    YES    score=38.0 files_touched=6 window=5000ms
+       >> reasons=['new_file_create(10)', 'baseline_write(6)', 'baseline_rename_ext:txt->locked(5)'] candidates=[A3(pid=9224,wchar=6687)]
+  ********************************************************************************************************
+  58   17:53:57.873.445 +3323.65   EVENT   MODIFY         YES    /data/media/0/radar_ui_sandbox/Documents/note_6.txt
+  59   17:53:57.874.195 +3324.40   EVENT   CLOSE_WRITE    YES    /data/media/0/radar_ui_sandbox/Documents/note_6.txt
+  60   17:53:57.932.323 +3382.53   EVENT   MOVED_FROM     YES    /data/media/0/radar_ui_sandbox/Documents/note_6.txt
+  61   17:53:57.932.698 +3382.90   EVENT   MOVED_TO       NO     /data/media/0/radar_ui_sandbox/Documents/note_6.txt.locked
+  62   17:53:58.081.148 +3531.35   EVENT   MODIFY         YES    /data/media/0/radar_ui_sandbox/Documents/note_7.txt
+  63   17:53:58.107.042 +3557.25   EVENT   MODIFY         YES    /data/media/0/radar_ui_sandbox/Documents/note_7.txt
+  64   17:53:58.107.891 +3558.09   EVENT   CLOSE_WRITE    YES    /data/media/0/radar_ui_sandbox/Documents/note_7.txt
+  65   17:53:58.213.811 +3664.01   EVENT   MOVED_FROM     YES    /data/media/0/radar_ui_sandbox/Documents/note_7.txt
+  66   17:53:58.213.856 +3664.06   EVENT   MOVED_TO       NO     /data/media/0/radar_ui_sandbox/Documents/note_7.txt.locked
+  67   17:53:58.394.838 +3845.04   EVENT   MODIFY         YES    /data/media/0/radar_ui_sandbox/Documents/note_8.txt
+  68   17:53:58.428.956 +3879.16   EVENT   MODIFY         YES    /data/media/0/radar_ui_sandbox/Documents/note_8.txt
+  69   17:53:58.429.002 +3879.21   EVENT   CLOSE_WRITE    YES    /data/media/0/radar_ui_sandbox/Documents/note_8.txt
+  70   17:53:58.499.986 +3950.19   EVENT   MOVED_FROM     YES    /data/media/0/radar_ui_sandbox/Documents/note_8.txt
+  71   17:53:58.500.520 +3950.72   EVENT   MOVED_TO       NO     /data/media/0/radar_ui_sandbox/Documents/note_8.txt.locked
+  72   17:53:58.681.421 +4131.62   EVENT   MODIFY         YES    /data/media/0/radar_ui_sandbox/Documents/note_9.txt
+  ********************************************************************************************************
+  73   17:53:58.699.406 +4149.61   KILL    SIGKILL_OK     YES    killed_name=A3 pid=9224
+       >> result=ok
+  ********************************************************************************************************
+  74   17:53:58.700.541 +4150.74   EVENT   MODIFY         YES    /data/media/0/radar_ui_sandbox/Documents/note_9.txt
+  75   17:53:58.701.139 +4151.34   EVENT   CLOSE_WRITE    YES    /data/media/0/radar_ui_sandbox/Documents/note_9.txt
+============================================================================================================

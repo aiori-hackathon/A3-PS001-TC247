@@ -1,0 +1,5 @@
+[2026-10-28T12:23:54.126095Z] STARTUP root=/data/media/0/radar_ui_sandbox baseline_files=15 watchers=4 window_ms=5000 min_files=6 min_score=15.0 kill=true
+[2026-10-28T12:23:54.145211Z] WATCHED .
+[2026-10-28T12:23:54.145277Z] WATCHED DCIM
+[2026-10-28T12:23:54.145298Z] WATCHED DCIM/Camera
+[2026-10-28T12:23:54.145318Z] WATCHED Documents

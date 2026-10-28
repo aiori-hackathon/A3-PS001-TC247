@@ -1,0 +1,870 @@
+{
+  "metadata": {
+    "generated_at": "2026-10-28 17:54:00 IST",
+    "monitored_root": "/data/media/0/radar_ui_sandbox",
+    "baseline_total_files": 15,
+    "watchers_registered": 4,
+    "window_ms": 5000,
+    "min_files_threshold": 6,
+    "min_score_threshold": 15.0
+  },
+  "performance_metrics": {
+    "total_events_logged": 73,
+    "baseline_events": 35,
+    "non_baseline_events": 38,
+    "event_type_breakdown": {
+      "CREATE": 10,
+      "MODIFY": 28,
+      "CLOSE_WRITE": 19,
+      "MOVED_FROM": 8,
+      "MOVED_TO": 8
+    },
+    "peak_event_rate_per_sec": 25,
+    "total_alerts": 1,
+    "total_kills": 1,
+    "TP": 1,
+    "FP": 0,
+    "TN": 1,
+    "FN": 0,
+    "precision_pct": 100.0,
+    "recall_pct": 100.0,
+    "f1_score_pct": 100.0,
+    "mean_detection_delay_ms": 1174.116,
+    "mean_telemetry_delay_ms": 1240.317,
+    "mean_kill_latency_ms": 844.686,
+    "mean_total_mitigation_ms": 2018.802,
+    "mean_files_changed_before_kill": 9.0,
+    "benign_workloads_killed": 0
+  },
+  "trials": [
+    {
+      "trial": 1,
+      "scenario": "A3",
+      "label": "attack",
+      "outcome": "TP",
+      "alerted": true,
+      "score": 38.0,
+      "reasons": [
+        "new_file_create(10)",
+        "baseline_write(6)",
+        "baseline_rename_ext:txt->locked(5)"
+      ],
+      "delay_ms": 1174.116,
+      "telemetry_delay_ms": 1240.317,
+      "kill_latency_ms": 844.686,
+      "total_mitigation_ms": 2018.802,
+      "files_at_alert": 6,
+      "files_changed": 9,
+      "files_saved": 6,
+      "survival_pct": 40.0,
+      "pace_ms_per_file": 258.38,
+      "events_count": 43,
+      "killed_pid": 9224,
+      "killed_name": "A3",
+      "kill_result": "ok",
+      "benign_killed": false,
+      "stopped_before_completion": true,
+      "first_op_time": "17:53:56.680.603",
+      "alert_time": "17:53:57.854.720",
+      "kill_time": "17:53:58.699.406",
+      "touched_files_list": [
+        "note_1.txt",
+        "note_2.txt",
+        "note_3.txt",
+        "note_4.txt",
+        "note_5.txt",
+        "note_6.txt",
+        "note_7.txt",
+        "note_8.txt",
+        "note_9.txt"
+      ]
+    },
+    {
+      "trial": 2,
+      "scenario": "B1",
+      "label": "benign",
+      "outcome": "TN",
+      "alerted": false,
+      "score": 0.0,
+      "reasons": [],
+      "delay_ms": 0.0,
+      "telemetry_delay_ms": 0.0,
+      "kill_latency_ms": 0.0,
+      "total_mitigation_ms": 0.0,
+      "files_at_alert": 0,
+      "files_changed": 0,
+      "files_saved": 15,
+      "survival_pct": 100.0,
+      "pace_ms_per_file": 0.0,
+      "events_count": 30,
+      "killed_pid": -1,
+      "killed_name": "none",
+      "kill_result": "none",
+      "benign_killed": false,
+      "stopped_before_completion": false,
+      "first_op_time": "17:53:54.569.479",
+      "alert_time": "-",
+      "kill_time": "-",
+      "touched_files_list": []
+    }
+  ],
+  "health_log": [
+    "[2026-10-28T12:23:54.126095Z] STARTUP root=/data/media/0/radar_ui_sandbox baseline_files=15 watchers=4 window_ms=5000 min_files=6 min_score=15.0 kill=true",
+    "[2026-10-28T12:23:54.145211Z] WATCHED .",
+    "[2026-10-28T12:23:54.145277Z] WATCHED DCIM",
+    "[2026-10-28T12:23:54.145298Z] WATCHED DCIM/Camera",
+    "[2026-10-28T12:23:54.145318Z] WATCHED Documents"
+  ],
+  "chronological_logs": [
+    {
+      "ts_ns": 1793190234549796000,
+      "time": "17:53:54.549.796",
+      "rel_ms": 0.0,
+      "kind": "EVENT",
+      "type": "CREATE",
+      "baseline": false,
+      "path": "/data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_001.jpg",
+      "info": "new_file"
+    },
+    {
+      "ts_ns": 1793190234549982000,
+      "time": "17:53:54.549.982",
+      "rel_ms": 0.19,
+      "kind": "EVENT",
+      "type": "MODIFY",
+      "baseline": false,
+      "path": "/data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_001.jpg",
+      "info": "new_file"
+    },
+    {
+      "ts_ns": 1793190234550058000,
+      "time": "17:53:54.550.058",
+      "rel_ms": 0.26,
+      "kind": "EVENT",
+      "type": "CLOSE_WRITE",
+      "baseline": false,
+      "path": "/data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_001.jpg",
+      "info": "new_file"
+    },
+    {
+      "ts_ns": 1793190234681434000,
+      "time": "17:53:54.681.434",
+      "rel_ms": 131.64,
+      "kind": "EVENT",
+      "type": "CREATE",
+      "baseline": false,
+      "path": "/data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_002.jpg",
+      "info": "new_file"
+    },
+    {
+      "ts_ns": 1793190234681572000,
+      "time": "17:53:54.681.572",
+      "rel_ms": 131.78,
+      "kind": "EVENT",
+      "type": "MODIFY",
+      "baseline": false,
+      "path": "/data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_002.jpg",
+      "info": "new_file"
+    },
+    {
+      "ts_ns": 1793190234681634000,
+      "time": "17:53:54.681.634",
+      "rel_ms": 131.84,
+      "kind": "EVENT",
+      "type": "CLOSE_WRITE",
+      "baseline": false,
+      "path": "/data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_002.jpg",
+      "info": "new_file"
+    },
+    {
+      "ts_ns": 1793190234811011000,
+      "time": "17:53:54.811.011",
+      "rel_ms": 261.21,
+      "kind": "EVENT",
+      "type": "CREATE",
+      "baseline": false,
+      "path": "/data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_003.jpg",
+      "info": "new_file"
+    },
+    {
+      "ts_ns": 1793190234811129000,
+      "time": "17:53:54.811.129",
+      "rel_ms": 261.33,
+      "kind": "EVENT",
+      "type": "MODIFY",
+      "baseline": false,
+      "path": "/data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_003.jpg",
+      "info": "new_file"
+    },
+    {
+      "ts_ns": 1793190234811172000,
+      "time": "17:53:54.811.172",
+      "rel_ms": 261.38,
+      "kind": "EVENT",
+      "type": "CLOSE_WRITE",
+      "baseline": false,
+      "path": "/data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_003.jpg",
+      "info": "new_file"
+    },
+    {
+      "ts_ns": 1793190234937168000,
+      "time": "17:53:54.937.168",
+      "rel_ms": 387.37,
+      "kind": "EVENT",
+      "type": "CREATE",
+      "baseline": false,
+      "path": "/data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_004.jpg",
+      "info": "new_file"
+    },
+    {
+      "ts_ns": 1793190234937228000,
+      "time": "17:53:54.937.228",
+      "rel_ms": 387.43,
+      "kind": "EVENT",
+      "type": "MODIFY",
+      "baseline": false,
+      "path": "/data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_004.jpg",
+      "info": "new_file"
+    },
+    {
+      "ts_ns": 1793190234937292000,
+      "time": "17:53:54.937.292",
+      "rel_ms": 387.5,
+      "kind": "EVENT",
+      "type": "CLOSE_WRITE",
+      "baseline": false,
+      "path": "/data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_004.jpg",
+      "info": "new_file"
+    },
+    {
+      "ts_ns": 1793190235076261000,
+      "time": "17:53:55.076.261",
+      "rel_ms": 526.47,
+      "kind": "EVENT",
+      "type": "CREATE",
+      "baseline": false,
+      "path": "/data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_005.jpg",
+      "info": "new_file"
+    },
+    {
+      "ts_ns": 1793190235076326000,
+      "time": "17:53:55.076.326",
+      "rel_ms": 526.53,
+      "kind": "EVENT",
+      "type": "MODIFY",
+      "baseline": false,
+      "path": "/data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_005.jpg",
+      "info": "new_file"
+    },
+    {
+      "ts_ns": 1793190235076355000,
+      "time": "17:53:55.076.355",
+      "rel_ms": 526.56,
+      "kind": "EVENT",
+      "type": "CLOSE_WRITE",
+      "baseline": false,
+      "path": "/data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_005.jpg",
+      "info": "new_file"
+    },
+    {
+      "ts_ns": 1793190235200156000,
+      "time": "17:53:55.200.156",
+      "rel_ms": 650.36,
+      "kind": "EVENT",
+      "type": "CREATE",
+      "baseline": false,
+      "path": "/data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_006.jpg",
+      "info": "new_file"
+    },
+    {
+      "ts_ns": 1793190235200262000,
+      "time": "17:53:55.200.262",
+      "rel_ms": 650.47,
+      "kind": "EVENT",
+      "type": "MODIFY",
+      "baseline": false,
+      "path": "/data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_006.jpg",
+      "info": "new_file"
+    },
+    {
+      "ts_ns": 1793190235200301000,
+      "time": "17:53:55.200.301",
+      "rel_ms": 650.5,
+      "kind": "EVENT",
+      "type": "CLOSE_WRITE",
+      "baseline": false,
+      "path": "/data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_006.jpg",
+      "info": "new_file"
+    },
+    {
+      "ts_ns": 1793190235318131000,
+      "time": "17:53:55.318.131",
+      "rel_ms": 768.34,
+      "kind": "EVENT",
+      "type": "CREATE",
+      "baseline": false,
+      "path": "/data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_007.jpg",
+      "info": "new_file"
+    },
+    {
+      "ts_ns": 1793190235318164000,
+      "time": "17:53:55.318.164",
+      "rel_ms": 768.37,
+      "kind": "EVENT",
+      "type": "MODIFY",
+      "baseline": false,
+      "path": "/data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_007.jpg",
+      "info": "new_file"
+    },
+    {
+      "ts_ns": 1793190235318226000,
+      "time": "17:53:55.318.226",
+      "rel_ms": 768.43,
+      "kind": "EVENT",
+      "type": "CLOSE_WRITE",
+      "baseline": false,
+      "path": "/data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_007.jpg",
+      "info": "new_file"
+    },
+    {
+      "ts_ns": 1793190235461864000,
+      "time": "17:53:55.461.864",
+      "rel_ms": 912.07,
+      "kind": "EVENT",
+      "type": "CREATE",
+      "baseline": false,
+      "path": "/data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_008.jpg",
+      "info": "new_file"
+    },
+    {
+      "ts_ns": 1793190235461916000,
+      "time": "17:53:55.461.916",
+      "rel_ms": 912.12,
+      "kind": "EVENT",
+      "type": "MODIFY",
+      "baseline": false,
+      "path": "/data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_008.jpg",
+      "info": "new_file"
+    },
+    {
+      "ts_ns": 1793190235461955000,
+      "time": "17:53:55.461.955",
+      "rel_ms": 912.16,
+      "kind": "EVENT",
+      "type": "CLOSE_WRITE",
+      "baseline": false,
+      "path": "/data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_008.jpg",
+      "info": "new_file"
+    },
+    {
+      "ts_ns": 1793190235616866000,
+      "time": "17:53:55.616.866",
+      "rel_ms": 1067.07,
+      "kind": "EVENT",
+      "type": "CREATE",
+      "baseline": false,
+      "path": "/data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_009.jpg",
+      "info": "new_file"
+    },
+    {
+      "ts_ns": 1793190235617032000,
+      "time": "17:53:55.617.032",
+      "rel_ms": 1067.24,
+      "kind": "EVENT",
+      "type": "MODIFY",
+      "baseline": false,
+      "path": "/data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_009.jpg",
+      "info": "new_file"
+    },
+    {
+      "ts_ns": 1793190235617085000,
+      "time": "17:53:55.617.085",
+      "rel_ms": 1067.29,
+      "kind": "EVENT",
+      "type": "CLOSE_WRITE",
+      "baseline": false,
+      "path": "/data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_009.jpg",
+      "info": "new_file"
+    },
+    {
+      "ts_ns": 1793190235734518000,
+      "time": "17:53:55.734.518",
+      "rel_ms": 1184.72,
+      "kind": "EVENT",
+      "type": "CREATE",
+      "baseline": false,
+      "path": "/data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_0010.jpg",
+      "info": "new_file"
+    },
+    {
+      "ts_ns": 1793190235734600000,
+      "time": "17:53:55.734.600",
+      "rel_ms": 1184.8,
+      "kind": "EVENT",
+      "type": "MODIFY",
+      "baseline": false,
+      "path": "/data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_0010.jpg",
+      "info": "new_file"
+    },
+    {
+      "ts_ns": 1793190235734756000,
+      "time": "17:53:55.734.756",
+      "rel_ms": 1184.96,
+      "kind": "EVENT",
+      "type": "CLOSE_WRITE",
+      "baseline": false,
+      "path": "/data/media/0/radar_ui_sandbox/Backups/run_b1/IMG_0010.jpg",
+      "info": "new_file"
+    },
+    {
+      "ts_ns": 1793190236614403000,
+      "time": "17:53:56.614.403",
+      "rel_ms": 2064.61,
+      "kind": "EVENT",
+      "type": "MODIFY",
+      "baseline": true,
+      "path": "/data/media/0/radar_ui_sandbox/Documents/note_1.txt",
+      "info": "baseline_file"
+    },
+    {
+      "ts_ns": 1793190236648083000,
+      "time": "17:53:56.648.083",
+      "rel_ms": 2098.29,
+      "kind": "EVENT",
+      "type": "MODIFY",
+      "baseline": true,
+      "path": "/data/media/0/radar_ui_sandbox/Documents/note_1.txt",
+      "info": "baseline_file"
+    },
+    {
+      "ts_ns": 1793190236651654000,
+      "time": "17:53:56.651.654",
+      "rel_ms": 2101.86,
+      "kind": "EVENT",
+      "type": "CLOSE_WRITE",
+      "baseline": true,
+      "path": "/data/media/0/radar_ui_sandbox/Documents/note_1.txt",
+      "info": "baseline_file"
+    },
+    {
+      "ts_ns": 1793190236729317000,
+      "time": "17:53:56.729.317",
+      "rel_ms": 2179.52,
+      "kind": "EVENT",
+      "type": "MOVED_FROM",
+      "baseline": true,
+      "path": "/data/media/0/radar_ui_sandbox/Documents/note_1.txt",
+      "info": "baseline_file"
+    },
+    {
+      "ts_ns": 1793190236729602000,
+      "time": "17:53:56.729.602",
+      "rel_ms": 2179.81,
+      "kind": "EVENT",
+      "type": "MOVED_TO",
+      "baseline": false,
+      "path": "/data/media/0/radar_ui_sandbox/Documents/note_1.txt.locked",
+      "info": "new_file"
+    },
+    {
+      "ts_ns": 1793190236916028000,
+      "time": "17:53:56.916.028",
+      "rel_ms": 2366.23,
+      "kind": "EVENT",
+      "type": "MODIFY",
+      "baseline": true,
+      "path": "/data/media/0/radar_ui_sandbox/Documents/note_2.txt",
+      "info": "baseline_file"
+    },
+    {
+      "ts_ns": 1793190236978304000,
+      "time": "17:53:56.978.304",
+      "rel_ms": 2428.51,
+      "kind": "EVENT",
+      "type": "MODIFY",
+      "baseline": true,
+      "path": "/data/media/0/radar_ui_sandbox/Documents/note_2.txt",
+      "info": "baseline_file"
+    },
+    {
+      "ts_ns": 1793190236984097000,
+      "time": "17:53:56.984.097",
+      "rel_ms": 2434.3,
+      "kind": "EVENT",
+      "type": "CLOSE_WRITE",
+      "baseline": true,
+      "path": "/data/media/0/radar_ui_sandbox/Documents/note_2.txt",
+      "info": "baseline_file"
+    },
+    {
+      "ts_ns": 1793190237049234000,
+      "time": "17:53:57.049.234",
+      "rel_ms": 2499.44,
+      "kind": "EVENT",
+      "type": "MOVED_FROM",
+      "baseline": true,
+      "path": "/data/media/0/radar_ui_sandbox/Documents/note_2.txt",
+      "info": "baseline_file"
+    },
+    {
+      "ts_ns": 1793190237049313000,
+      "time": "17:53:57.049.313",
+      "rel_ms": 2499.52,
+      "kind": "EVENT",
+      "type": "MOVED_TO",
+      "baseline": false,
+      "path": "/data/media/0/radar_ui_sandbox/Documents/note_2.txt.locked",
+      "info": "new_file"
+    },
+    {
+      "ts_ns": 1793190237230814000,
+      "time": "17:53:57.230.814",
+      "rel_ms": 2681.02,
+      "kind": "EVENT",
+      "type": "MODIFY",
+      "baseline": true,
+      "path": "/data/media/0/radar_ui_sandbox/Documents/note_3.txt",
+      "info": "baseline_file"
+    },
+    {
+      "ts_ns": 1793190237252993000,
+      "time": "17:53:57.252.993",
+      "rel_ms": 2703.2,
+      "kind": "EVENT",
+      "type": "MODIFY",
+      "baseline": true,
+      "path": "/data/media/0/radar_ui_sandbox/Documents/note_3.txt",
+      "info": "baseline_file"
+    },
+    {
+      "ts_ns": 1793190237253665000,
+      "time": "17:53:57.253.665",
+      "rel_ms": 2703.87,
+      "kind": "EVENT",
+      "type": "CLOSE_WRITE",
+      "baseline": true,
+      "path": "/data/media/0/radar_ui_sandbox/Documents/note_3.txt",
+      "info": "baseline_file"
+    },
+    {
+      "ts_ns": 1793190237316871000,
+      "time": "17:53:57.316.871",
+      "rel_ms": 2767.07,
+      "kind": "EVENT",
+      "type": "MOVED_FROM",
+      "baseline": true,
+      "path": "/data/media/0/radar_ui_sandbox/Documents/note_3.txt",
+      "info": "baseline_file"
+    },
+    {
+      "ts_ns": 1793190237316933000,
+      "time": "17:53:57.316.933",
+      "rel_ms": 2767.14,
+      "kind": "EVENT",
+      "type": "MOVED_TO",
+      "baseline": false,
+      "path": "/data/media/0/radar_ui_sandbox/Documents/note_3.txt.locked",
+      "info": "new_file"
+    },
+    {
+      "ts_ns": 1793190237464284000,
+      "time": "17:53:57.464.284",
+      "rel_ms": 2914.49,
+      "kind": "EVENT",
+      "type": "MODIFY",
+      "baseline": true,
+      "path": "/data/media/0/radar_ui_sandbox/Documents/note_4.txt",
+      "info": "baseline_file"
+    },
+    {
+      "ts_ns": 1793190237480552000,
+      "time": "17:53:57.480.552",
+      "rel_ms": 2930.76,
+      "kind": "EVENT",
+      "type": "MODIFY",
+      "baseline": true,
+      "path": "/data/media/0/radar_ui_sandbox/Documents/note_4.txt",
+      "info": "baseline_file"
+    },
+    {
+      "ts_ns": 1793190237481818000,
+      "time": "17:53:57.481.818",
+      "rel_ms": 2932.02,
+      "kind": "EVENT",
+      "type": "CLOSE_WRITE",
+      "baseline": true,
+      "path": "/data/media/0/radar_ui_sandbox/Documents/note_4.txt",
+      "info": "baseline_file"
+    },
+    {
+      "ts_ns": 1793190237522335000,
+      "time": "17:53:57.522.335",
+      "rel_ms": 2972.54,
+      "kind": "EVENT",
+      "type": "MOVED_FROM",
+      "baseline": true,
+      "path": "/data/media/0/radar_ui_sandbox/Documents/note_4.txt",
+      "info": "baseline_file"
+    },
+    {
+      "ts_ns": 1793190237522373000,
+      "time": "17:53:57.522.373",
+      "rel_ms": 2972.58,
+      "kind": "EVENT",
+      "type": "MOVED_TO",
+      "baseline": false,
+      "path": "/data/media/0/radar_ui_sandbox/Documents/note_4.txt.locked",
+      "info": "new_file"
+    },
+    {
+      "ts_ns": 1793190237660404000,
+      "time": "17:53:57.660.404",
+      "rel_ms": 3110.61,
+      "kind": "EVENT",
+      "type": "MODIFY",
+      "baseline": true,
+      "path": "/data/media/0/radar_ui_sandbox/Documents/note_5.txt",
+      "info": "baseline_file"
+    },
+    {
+      "ts_ns": 1793190237673709000,
+      "time": "17:53:57.673.709",
+      "rel_ms": 3123.91,
+      "kind": "EVENT",
+      "type": "MODIFY",
+      "baseline": true,
+      "path": "/data/media/0/radar_ui_sandbox/Documents/note_5.txt",
+      "info": "baseline_file"
+    },
+    {
+      "ts_ns": 1793190237674326000,
+      "time": "17:53:57.674.326",
+      "rel_ms": 3124.53,
+      "kind": "EVENT",
+      "type": "CLOSE_WRITE",
+      "baseline": true,
+      "path": "/data/media/0/radar_ui_sandbox/Documents/note_5.txt",
+      "info": "baseline_file"
+    },
+    {
+      "ts_ns": 1793190237713633000,
+      "time": "17:53:57.713.633",
+      "rel_ms": 3163.84,
+      "kind": "EVENT",
+      "type": "MOVED_FROM",
+      "baseline": true,
+      "path": "/data/media/0/radar_ui_sandbox/Documents/note_5.txt",
+      "info": "baseline_file"
+    },
+    {
+      "ts_ns": 1793190237713709000,
+      "time": "17:53:57.713.709",
+      "rel_ms": 3163.91,
+      "kind": "EVENT",
+      "type": "MOVED_TO",
+      "baseline": false,
+      "path": "/data/media/0/radar_ui_sandbox/Documents/note_5.txt.locked",
+      "info": "new_file"
+    },
+    {
+      "ts_ns": 1793190237854720000,
+      "time": "17:53:57.854.720",
+      "rel_ms": 3304.92,
+      "kind": "EVENT",
+      "type": "MODIFY",
+      "baseline": true,
+      "path": "/data/media/0/radar_ui_sandbox/Documents/note_6.txt",
+      "info": "baseline_file"
+    },
+    {
+      "ts_ns": 1793190237854720000,
+      "time": "17:53:57.854.720",
+      "rel_ms": 3304.92,
+      "kind": "ALERT",
+      "type": "ALERT_FIRED",
+      "baseline": true,
+      "path": "score=38.0 files_touched=6 window=5000ms",
+      "info": "reasons=['new_file_create(10)', 'baseline_write(6)', 'baseline_rename_ext:txt->locked(5)'] candidates=[A3(pid=9224,wchar=6687)]"
+    },
+    {
+      "ts_ns": 1793190237873445000,
+      "time": "17:53:57.873.445",
+      "rel_ms": 3323.65,
+      "kind": "EVENT",
+      "type": "MODIFY",
+      "baseline": true,
+      "path": "/data/media/0/radar_ui_sandbox/Documents/note_6.txt",
+      "info": "baseline_file"
+    },
+    {
+      "ts_ns": 1793190237874195000,
+      "time": "17:53:57.874.195",
+      "rel_ms": 3324.4,
+      "kind": "EVENT",
+      "type": "CLOSE_WRITE",
+      "baseline": true,
+      "path": "/data/media/0/radar_ui_sandbox/Documents/note_6.txt",
+      "info": "baseline_file"
+    },
+    {
+      "ts_ns": 1793190237932323000,
+      "time": "17:53:57.932.323",
+      "rel_ms": 3382.53,
+      "kind": "EVENT",
+      "type": "MOVED_FROM",
+      "baseline": true,
+      "path": "/data/media/0/radar_ui_sandbox/Documents/note_6.txt",
+      "info": "baseline_file"
+    },
+    {
+      "ts_ns": 1793190237932698000,
+      "time": "17:53:57.932.698",
+      "rel_ms": 3382.9,
+      "kind": "EVENT",
+      "type": "MOVED_TO",
+      "baseline": false,
+      "path": "/data/media/0/radar_ui_sandbox/Documents/note_6.txt.locked",
+      "info": "new_file"
+    },
+    {
+      "ts_ns": 1793190238081148000,
+      "time": "17:53:58.081.148",
+      "rel_ms": 3531.35,
+      "kind": "EVENT",
+      "type": "MODIFY",
+      "baseline": true,
+      "path": "/data/media/0/radar_ui_sandbox/Documents/note_7.txt",
+      "info": "baseline_file"
+    },
+    {
+      "ts_ns": 1793190238107042000,
+      "time": "17:53:58.107.042",
+      "rel_ms": 3557.25,
+      "kind": "EVENT",
+      "type": "MODIFY",
+      "baseline": true,
+      "path": "/data/media/0/radar_ui_sandbox/Documents/note_7.txt",
+      "info": "baseline_file"
+    },
+    {
+      "ts_ns": 1793190238107891000,
+      "time": "17:53:58.107.891",
+      "rel_ms": 3558.09,
+      "kind": "EVENT",
+      "type": "CLOSE_WRITE",
+      "baseline": true,
+      "path": "/data/media/0/radar_ui_sandbox/Documents/note_7.txt",
+      "info": "baseline_file"
+    },
+    {
+      "ts_ns": 1793190238213811000,
+      "time": "17:53:58.213.811",
+      "rel_ms": 3664.01,
+      "kind": "EVENT",
+      "type": "MOVED_FROM",
+      "baseline": true,
+      "path": "/data/media/0/radar_ui_sandbox/Documents/note_7.txt",
+      "info": "baseline_file"
+    },
+    {
+      "ts_ns": 1793190238213856000,
+      "time": "17:53:58.213.856",
+      "rel_ms": 3664.06,
+      "kind": "EVENT",
+      "type": "MOVED_TO",
+      "baseline": false,
+      "path": "/data/media/0/radar_ui_sandbox/Documents/note_7.txt.locked",
+      "info": "new_file"
+    },
+    {
+      "ts_ns": 1793190238394838000,
+      "time": "17:53:58.394.838",
+      "rel_ms": 3845.04,
+      "kind": "EVENT",
+      "type": "MODIFY",
+      "baseline": true,
+      "path": "/data/media/0/radar_ui_sandbox/Documents/note_8.txt",
+      "info": "baseline_file"
+    },
+    {
+      "ts_ns": 1793190238428956000,
+      "time": "17:53:58.428.956",
+      "rel_ms": 3879.16,
+      "kind": "EVENT",
+      "type": "MODIFY",
+      "baseline": true,
+      "path": "/data/media/0/radar_ui_sandbox/Documents/note_8.txt",
+      "info": "baseline_file"
+    },
+    {
+      "ts_ns": 1793190238429002000,
+      "time": "17:53:58.429.002",
+      "rel_ms": 3879.21,
+      "kind": "EVENT",
+      "type": "CLOSE_WRITE",
+      "baseline": true,
+      "path": "/data/media/0/radar_ui_sandbox/Documents/note_8.txt",
+      "info": "baseline_file"
+    },
+    {
+      "ts_ns": 1793190238499986000,
+      "time": "17:53:58.499.986",
+      "rel_ms": 3950.19,
+      "kind": "EVENT",
+      "type": "MOVED_FROM",
+      "baseline": true,
+      "path": "/data/media/0/radar_ui_sandbox/Documents/note_8.txt",
+      "info": "baseline_file"
+    },
+    {
+      "ts_ns": 1793190238500520000,
+      "time": "17:53:58.500.520",
+      "rel_ms": 3950.72,
+      "kind": "EVENT",
+      "type": "MOVED_TO",
+      "baseline": false,
+      "path": "/data/media/0/radar_ui_sandbox/Documents/note_8.txt.locked",
+      "info": "new_file"
+    },
+    {
+      "ts_ns": 1793190238681421000,
+      "time": "17:53:58.681.421",
+      "rel_ms": 4131.62,
+      "kind": "EVENT",
+      "type": "MODIFY",
+      "baseline": true,
+      "path": "/data/media/0/radar_ui_sandbox/Documents/note_9.txt",
+      "info": "baseline_file"
+    },
+    {
+      "ts_ns": 1793190238699406000,
+      "time": "17:53:58.699.406",
+      "rel_ms": 4149.61,
+      "kind": "KILL",
+      "type": "SIGKILL_OK",
+      "baseline": true,
+      "path": "killed_name=A3 pid=9224",
+      "info": "result=ok"
+    },
+    {
+      "ts_ns": 1793190238700541000,
+      "time": "17:53:58.700.541",
+      "rel_ms": 4150.74,
+      "kind": "EVENT",
+      "type": "MODIFY",
+      "baseline": true,
+      "path": "/data/media/0/radar_ui_sandbox/Documents/note_9.txt",
+      "info": "baseline_file"
+    },
+    {
+      "ts_ns": 1793190238701139000,
+      "time": "17:53:58.701.139",
+      "rel_ms": 4151.34,
+      "kind": "EVENT",
+      "type": "CLOSE_WRITE",
+      "baseline": true,
+      "path": "/data/media/0/radar_ui_sandbox/Documents/note_9.txt",
+      "info": "baseline_file"
+    }
+  ]
+}

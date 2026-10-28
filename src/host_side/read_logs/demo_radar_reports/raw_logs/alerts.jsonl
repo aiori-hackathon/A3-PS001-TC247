@@ -1,0 +1,2 @@
+{"ts_ns":1793190237854720000,"kind":"alert","score":38.0,"files_touched":6,"window_ms":5000,"reasons":["new_file_create(10)","baseline_write(6)","baseline_rename_ext:txt->locked(5)"],"candidates":[{"name":"A3","pid":9224,"wchar_delta":939,"total_wchar":6687,"open_fds":0}]}
+{"ts_ns":1793190238699406000,"kind":"kill","name":"A3","pid":9224,"result":"ok"}

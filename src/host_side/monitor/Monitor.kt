@@ -357,6 +357,13 @@ class RadarMonitor(private val cfg: Config) {
     // Event Normalisation & Noise Filtering (Section 6.4)
     // -----------------------------------------------------------------------
     private fun processRawEvent(ev: RawFsEvent) {
+        private fun processRawEvent(ev: RawFsEvent) {
+        // Always-on daemon guard: if host is resetting /sdcard dataset, ignore push events
+        if (File(cfg.registryDir, ".resetting").exists()) {
+            windowActions.clear()
+            renamedBaselineMap.clear()
+            return
+        }
         val masked = ev.mask and FileObserver.ALL_EVENTS
         if (masked == 0 || ev.relName.isEmpty()) return
         if (ev.relName.startsWith(PROBE_PREFIX)) { probeSeen[ev.dirPath] = true; return }

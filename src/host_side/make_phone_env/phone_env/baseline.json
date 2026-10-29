@@ -1,0 +1,809 @@
+{
+ "seed": 1337,
+ "pillow": true,
+ "generated_for": "PS-001 lab baseline",
+ "file_count": 100,
+ "total_bytes": 16434132,
+ "files": [
+  {
+   "path": "DCIM/Camera/IMG_20260219_130734.jpg",
+   "kind": "photo",
+   "size": 192832,
+   "sha256": "bd58665bedb89e92c9ab473fce74986772a550bbabbdeaf071b968ebefcdcf91",
+   "entropy": 7.9188,
+   "mtime": 1771486654
+  },
+  {
+   "path": "DCIM/Camera/IMG_20251208_111557.jpg",
+   "kind": "photo",
+   "size": 215556,
+   "sha256": "644d983f2ebfb29a340566f8e25b8ac3db17d9aa832f0f36e0ddbfff522795b3",
+   "entropy": 7.9419,
+   "mtime": 1765172757
+  },
+  {
+   "path": "DCIM/Camera/IMG_20260210_195006.jpg",
+   "kind": "photo",
+   "size": 193924,
+   "sha256": "77f6825348d52c6257b5e113a4c0b88c29d289f561b6639003a18bccf8a49182",
+   "entropy": 7.919,
+   "mtime": 1770733206
+  },
+  {
+   "path": "DCIM/Camera/IMG_20260628_162250.jpg",
+   "kind": "photo",
+   "size": 192750,
+   "sha256": "fc77b2646ad408dd4a52f7d4c1859a4e0a71fa5f07e7123f9a5ec8498c5dd7e7",
+   "entropy": 7.9191,
+   "mtime": 1782643970
+  },
+  {
+   "path": "DCIM/Camera/IMG_20260626_102623.jpg",
+   "kind": "photo",
+   "size": 289201,
+   "sha256": "bf622ab90de926cd01c9efcff78fab07d74d4889a0c04185cd3b4c2710a94493",
+   "entropy": 7.9456,
+   "mtime": 1782449783
+  },
+  {
+   "path": "DCIM/Camera/IMG_20260810_204844.jpg",
+   "kind": "photo",
+   "size": 192937,
+   "sha256": "957d9fb02d91c7f9e7e864934f95287efe4b4275a08adc2917ff2b676b898e7b",
+   "entropy": 7.9206,
+   "mtime": 1786375124
+  },
+  {
+   "path": "DCIM/Camera/IMG_20251027_081107.jpg",
+   "kind": "photo",
+   "size": 214835,
+   "sha256": "aa53f0ef29bc74704abf0c5b21da9640da3175b82d1e8247d7ec7e33818f0c02",
+   "entropy": 7.9307,
+   "mtime": 1761532867
+  },
+  {
+   "path": "DCIM/Camera/IMG_20260301_000627.jpg",
+   "kind": "photo",
+   "size": 192547,
+   "sha256": "59543e149f95cc61387bd18c95450e3b88e1695584bbeed0150f9dc324011900",
+   "entropy": 7.9203,
+   "mtime": 1772303787
+  },
+  {
+   "path": "DCIM/Camera/IMG_20260427_123101.jpg",
+   "kind": "photo",
+   "size": 197611,
+   "sha256": "d78a08bb30e614dfded760ef0f29adc2c4655842218e5b80758318406dd907a4",
+   "entropy": 7.9233,
+   "mtime": 1777273261
+  },
+  {
+   "path": "DCIM/Camera/IMG_20260607_012441.jpg",
+   "kind": "photo",
+   "size": 204123,
+   "sha256": "477ef417a398437aeb45963c85b0be80a1d536611a199e111c730dc2c2d5ca05",
+   "entropy": 7.9275,
+   "mtime": 1780775681
+  },
+  {
+   "path": "DCIM/Camera/IMG_20260331_142246.jpg",
+   "kind": "photo",
+   "size": 193464,
+   "sha256": "9accc12e61cce9f21dbc33d79473375d5e87c37907f5fe90ba16c8b39649cdd3",
+   "entropy": 7.9186,
+   "mtime": 1774947166
+  },
+  {
+   "path": "DCIM/Camera/IMG_20251107_084011.jpg",
+   "kind": "photo",
+   "size": 194049,
+   "sha256": "63fb50c003ef87bb3939a62aac9a52ceb41587a585914112f8aa5a87d89c3178",
+   "entropy": 7.9186,
+   "mtime": 1762485011
+  },
+  {
+   "path": "DCIM/Camera/IMG_20260815_185011.jpg",
+   "kind": "photo",
+   "size": 193538,
+   "sha256": "23fb515b6cb9f2b74606762cb2cffbb9855721683d59c48f8bb096e566c8f98d",
+   "entropy": 7.919,
+   "mtime": 1786800011
+  },
+  {
+   "path": "DCIM/Camera/IMG_20260924_220610.jpg",
+   "kind": "photo",
+   "size": 197249,
+   "sha256": "4299476c1d8d265c5ece70f439f57459d264e01fbf436b659f607ee93274275c",
+   "entropy": 7.9236,
+   "mtime": 1790267770
+  },
+  {
+   "path": "DCIM/Camera/IMG_20260709_021521.jpg",
+   "kind": "photo",
+   "size": 205060,
+   "sha256": "3a483f5bb066417ec3b640ec2673d920074fe6fd0e97bc3175926e2aacc0c8cf",
+   "entropy": 7.9299,
+   "mtime": 1783543521
+  },
+  {
+   "path": "DCIM/Camera/IMG_20260622_201343.jpg",
+   "kind": "photo",
+   "size": 192404,
+   "sha256": "8b580e0d02d8bbbf645a0678157aa98cbd98e3ca5b302f76557a580b547f4ec6",
+   "entropy": 7.9208,
+   "mtime": 1782139423
+  },
+  {
+   "path": "DCIM/Camera/IMG_20260615_015515.jpg",
+   "kind": "photo",
+   "size": 196352,
+   "sha256": "16c15930a813f2bc28a02ef3035f5092faf1f313306b2e47b39a0febe781fde1",
+   "entropy": 7.9216,
+   "mtime": 1781468715
+  },
+  {
+   "path": "DCIM/Camera/IMG_20260714_150028.jpg",
+   "kind": "photo",
+   "size": 280825,
+   "sha256": "9b8f083bcfc05812c7759a479a45ef5f380c71cb4bfaf70e1d55a0bd73bba041",
+   "entropy": 7.9574,
+   "mtime": 1784021428
+  },
+  {
+   "path": "DCIM/Camera/IMG_20251031_020220.jpg",
+   "kind": "photo",
+   "size": 200636,
+   "sha256": "dfefcfede04cf701333b2add71b46ebe3cc6f917f9a23956b56ec38dbc41e3be",
+   "entropy": 7.9301,
+   "mtime": 1761856340
+  },
+  {
+   "path": "DCIM/Camera/IMG_20260806_070111.jpg",
+   "kind": "photo",
+   "size": 224125,
+   "sha256": "0e22b2c204bd0dae7bbe36773c04d058c50236f117b6e7cc98d8dc1ebaa1851a",
+   "entropy": 7.9337,
+   "mtime": 1785979871
+  },
+  {
+   "path": "DCIM/Camera/IMG_20260110_221059.jpg",
+   "kind": "photo",
+   "size": 313825,
+   "sha256": "c2fd02b9e72cf19b76c62323155cd020f5b9d627b8ab12b8cd549dbea9b68f31",
+   "entropy": 7.9561,
+   "mtime": 1768063259
+  },
+  {
+   "path": "DCIM/Camera/IMG_20260130_160453.jpg",
+   "kind": "photo",
+   "size": 344466,
+   "sha256": "63253bb0d5f5562ad88f601987ab659bca022e66f9ca161e52ec0567209d33a8",
+   "entropy": 7.9526,
+   "mtime": 1769769293
+  },
+  {
+   "path": "DCIM/Camera/IMG_20260427_212137.jpg",
+   "kind": "photo",
+   "size": 193157,
+   "sha256": "bf4b8a02aa35f1286e542816a51e57ef6dd5432eb32f3ba4f6b3bdbd020b838d",
+   "entropy": 7.9183,
+   "mtime": 1777305097
+  },
+  {
+   "path": "DCIM/Camera/IMG_20251109_041846.jpg",
+   "kind": "photo",
+   "size": 193012,
+   "sha256": "f89f066c203ecc0bd99618f695e65ed301fe82df493f57f87074de67d926607a",
+   "entropy": 7.9193,
+   "mtime": 1762642126
+  },
+  {
+   "path": "DCIM/Camera/IMG_20251226_104850.jpg",
+   "kind": "photo",
+   "size": 193200,
+   "sha256": "235f53e8a4e1d008bce5bd1f933bf47de32911680e5008e1086dec4efaa725d5",
+   "entropy": 7.9181,
+   "mtime": 1766726330
+  },
+  {
+   "path": "DCIM/Camera/IMG_20260424_054320.jpg",
+   "kind": "photo",
+   "size": 224842,
+   "sha256": "3c36efa684ec0e6622bac1b844b5695d7929adad7ff1986d986d74bc88b0c2d9",
+   "entropy": 7.9319,
+   "mtime": 1776989600
+  },
+  {
+   "path": "DCIM/Camera/IMG_20260530_215222.jpg",
+   "kind": "photo",
+   "size": 204643,
+   "sha256": "cb20b8e777000e3749007d1b885bb57d62ebc06386343863d8d7f01728865de3",
+   "entropy": 7.9311,
+   "mtime": 1780158142
+  },
+  {
+   "path": "DCIM/Camera/IMG_20260109_045713.jpg",
+   "kind": "photo",
+   "size": 215511,
+   "sha256": "8e40985552292d334b4bae0778bd2e892a0c0578744f6b7cea60e9bfdbb411b9",
+   "entropy": 7.9296,
+   "mtime": 1767914833
+  },
+  {
+   "path": "DCIM/Camera/IMG_20260703_041918.jpg",
+   "kind": "photo",
+   "size": 193138,
+   "sha256": "119a15a549818d6c450e2100ce0efd883914e0107ae8670d4c2c13f03a5f57c2",
+   "entropy": 7.9198,
+   "mtime": 1783032558
+  },
+  {
+   "path": "DCIM/Camera/IMG_20260928_000753.jpg",
+   "kind": "photo",
+   "size": 239216,
+   "sha256": "eda97d2ec3cc71fffc3db970681ba92ef549c70f3bfae59fe4744cfbf56fe951",
+   "entropy": 7.9401,
+   "mtime": 1790534273
+  },
+  {
+   "path": "Pictures/Screenshots/Screenshot_20260714-074036.png",
+   "kind": "screenshot",
+   "size": 12762,
+   "sha256": "3ced622b6d28d87d620521fa52753460b2c60bc7e24923846b327d16ae4455e2",
+   "entropy": 4.139,
+   "mtime": 1783995036
+  },
+  {
+   "path": "Pictures/Screenshots/Screenshot_20260712-193613.png",
+   "kind": "screenshot",
+   "size": 12761,
+   "sha256": "1405149b76195e42e888d7e0f253583b948b4ef08b53fd5323fc9d4f8fd3a733",
+   "entropy": 4.1366,
+   "mtime": 1783865173
+  },
+  {
+   "path": "Pictures/Screenshots/Screenshot_20260622-133351.png",
+   "kind": "screenshot",
+   "size": 12763,
+   "sha256": "bde49990cb6c0202144fbbdc5bd6d742ef5a29d7a80935d1026ef97cee03a025",
+   "entropy": 4.1398,
+   "mtime": 1782115431
+  },
+  {
+   "path": "Pictures/Screenshots/Screenshot_20260826-050420.png",
+   "kind": "screenshot",
+   "size": 12753,
+   "sha256": "71a34eed2d5d27b1f0ea3f1b1d67dc31229916a8d77ee68fed0513855dd24725",
+   "entropy": 4.1368,
+   "mtime": 1787700860
+  },
+  {
+   "path": "Pictures/Screenshots/Screenshot_20260917-202445.png",
+   "kind": "screenshot",
+   "size": 12761,
+   "sha256": "74c62f87b86d0516cbf969c43a8b462f108d588c874bfda52584dc8e447422f8",
+   "entropy": 4.1415,
+   "mtime": 1789656885
+  },
+  {
+   "path": "Pictures/Screenshots/Screenshot_20260926-041622.png",
+   "kind": "screenshot",
+   "size": 12763,
+   "sha256": "ad831dd578c88a727858c1fb3b6e877dc2f69a5ed4ac22a6140d63324e3397ef",
+   "entropy": 4.1406,
+   "mtime": 1790376382
+  },
+  {
+   "path": "Pictures/Screenshots/Screenshot_20260916-091254.png",
+   "kind": "screenshot",
+   "size": 12763,
+   "sha256": "3b1f595d4fce370dacb2401e684c270280b4792228a817842cc2a1e3fed59c56",
+   "entropy": 4.1421,
+   "mtime": 1789530174
+  },
+  {
+   "path": "Pictures/Screenshots/Screenshot_20261006-220804.png",
+   "kind": "screenshot",
+   "size": 12763,
+   "sha256": "b3ddd2189c163fa75ff503e2fdfdfdedb5622416bd14e00165ff3b3e3bbeda21",
+   "entropy": 4.1379,
+   "mtime": 1791304684
+  },
+  {
+   "path": "Pictures/Screenshots/Screenshot_20260703-214044.png",
+   "kind": "screenshot",
+   "size": 12756,
+   "sha256": "0a6881d9c40343957baa084bd885bb17aab9977b7b784abd82a223dbb5678f22",
+   "entropy": 4.143,
+   "mtime": 1783095044
+  },
+  {
+   "path": "Pictures/Screenshots/Screenshot_20260826-152651.png",
+   "kind": "screenshot",
+   "size": 12757,
+   "sha256": "8f681f60f1ff49283fcd40a4f22b2ab86fad51e52c3e5f145b4d364c872002d2",
+   "entropy": 4.1414,
+   "mtime": 1787738211
+  },
+  {
+   "path": "Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20260827-WA0868.jpg",
+   "kind": "chat_media",
+   "size": 51499,
+   "sha256": "0aa98d4d3eab0843d355c97ed7414886a26046d4ebf14e3b018006da107e4527",
+   "entropy": 7.9262,
+   "mtime": 1787844866
+  },
+  {
+   "path": "Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20260708-WA0783.jpg",
+   "kind": "chat_media",
+   "size": 53147,
+   "sha256": "1683dbc545a69907b88720e569fb2cba209998901a04dee7f208107c7c436e96",
+   "entropy": 7.9342,
+   "mtime": 1783513483
+  },
+  {
+   "path": "Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20260426-WA0296.jpg",
+   "kind": "chat_media",
+   "size": 49647,
+   "sha256": "7ebb3279e72c7afdd8fd19cb5c6cd11f6a2073e1c27b4fa65e79d6acc5635887",
+   "entropy": 7.9219,
+   "mtime": 1777212281
+  },
+  {
+   "path": "Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20260808-WA0311.jpg",
+   "kind": "chat_media",
+   "size": 53279,
+   "sha256": "5fd2d805cb566e4af82072ca51dc3a8ffd77d8b61594deba9ebfc1e17c363add",
+   "entropy": 7.9393,
+   "mtime": 1786170987
+  },
+  {
+   "path": "Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20260508-WA0448.jpg",
+   "kind": "chat_media",
+   "size": 49298,
+   "sha256": "2619b81c04531e6e01f14c0f2214c6185593489ef14c99683408aceea454a26e",
+   "entropy": 7.9224,
+   "mtime": 1778213731
+  },
+  {
+   "path": "Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20260905-WA0681.jpg",
+   "kind": "chat_media",
+   "size": 48877,
+   "sha256": "03096a03f1fc1cc33a2ce88a15f2be95d365dea93c6e4e60362638dd4383c535",
+   "entropy": 7.9228,
+   "mtime": 1788591650
+  },
+  {
+   "path": "Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20260421-WA0079.jpg",
+   "kind": "chat_media",
+   "size": 56380,
+   "sha256": "17f7fdb55051b7906a374b34e75570ec2576c61caca8e0e321b5a4f7a8039a55",
+   "entropy": 7.9362,
+   "mtime": 1776742024
+  },
+  {
+   "path": "Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20260822-WA0345.jpg",
+   "kind": "chat_media",
+   "size": 48860,
+   "sha256": "6630e381627f2d35910d2f17a7d93c7b70c3ff1c922845140f1e40b6eccf49d0",
+   "entropy": 7.9223,
+   "mtime": 1787358692
+  },
+  {
+   "path": "Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20261006-WA0922.jpg",
+   "kind": "chat_media",
+   "size": 52703,
+   "sha256": "70e10c435d39b64ab4e2f975dfe8ba05bd896776d6c6e05a853eb5c52064f5f8",
+   "entropy": 7.9245,
+   "mtime": 1791233112
+  },
+  {
+   "path": "Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20260717-WA0098.jpg",
+   "kind": "chat_media",
+   "size": 48566,
+   "sha256": "570b302962f65f42e3494bb856970e37182a915b69b073581fb659ae6f5ff885",
+   "entropy": 7.9171,
+   "mtime": 1784251956
+  },
+  {
+   "path": "Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20260828-WA0417.jpg",
+   "kind": "chat_media",
+   "size": 49140,
+   "sha256": "b2ca090b67a3e101fad01659be7ad32bae0b157f5d0f298d8877e28f38c00bdd",
+   "entropy": 7.9222,
+   "mtime": 1787926504
+  },
+  {
+   "path": "Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20260518-WA0978.jpg",
+   "kind": "chat_media",
+   "size": 65196,
+   "sha256": "e495e28b05f6dad689363a1fdaa936fc8b1211f2dd391d0721604e3421583875",
+   "entropy": 7.9389,
+   "mtime": 1779082157
+  },
+  {
+   "path": "Documents/College/DST_notes.docx",
+   "kind": "docx",
+   "size": 1388,
+   "sha256": "234989b472bbe3cdc97ce99d8a92fd113dc27477f0a1876b39bf398dc3430dea",
+   "entropy": 7.4994,
+   "mtime": 1781835367
+  },
+  {
+   "path": "Documents/College/DST_assignment.pdf",
+   "kind": "pdf",
+   "size": 695,
+   "sha256": "2537c2a19d9c57265a50eeb59f9650a1881cb6caa8b6cfe31082b4c77254cb61",
+   "entropy": 4.8496,
+   "mtime": 1784442058
+  },
+  {
+   "path": "Documents/College/Maths_notes.docx",
+   "kind": "docx",
+   "size": 1453,
+   "sha256": "34d94ed83e9d744e804ed81285148eec7ab8c794e864cb555167c7a61a697df7",
+   "entropy": 7.5273,
+   "mtime": 1785435171
+  },
+  {
+   "path": "Documents/College/Maths_assignment.pdf",
+   "kind": "pdf",
+   "size": 697,
+   "sha256": "8123fddac39ba6f9363643279621632a1216ee1b5997b192c46a49afcecc92bc",
+   "entropy": 4.8352,
+   "mtime": 1789530345
+  },
+  {
+   "path": "Documents/College/DBMS_notes.docx",
+   "kind": "docx",
+   "size": 1219,
+   "sha256": "11bb631e2f0d0ffc527d0c6b32846b63789b5e8c2a5f2ef0dbe72a5c747d6cf0",
+   "entropy": 7.4148,
+   "mtime": 1790170938
+  },
+  {
+   "path": "Documents/College/DBMS_assignment.pdf",
+   "kind": "pdf",
+   "size": 696,
+   "sha256": "dd2c78a872bafc76ab1e37d0dc3ab3be8bff0e7c7c9ce61ddcca15b2898cc677",
+   "entropy": 4.8406,
+   "mtime": 1787860780
+  },
+  {
+   "path": "Documents/College/OS_notes.docx",
+   "kind": "docx",
+   "size": 1229,
+   "sha256": "39fa5b0963410b65039ab34cad24047401eda36253020d0e4bf37dfcc209c5de",
+   "entropy": 7.4213,
+   "mtime": 1783487408
+  },
+  {
+   "path": "Documents/College/OS_assignment.pdf",
+   "kind": "pdf",
+   "size": 694,
+   "sha256": "18be6dc0d0ce2f11ad1c92ac0ccb28a1afc18d6a68f45844c379b115eb892bb5",
+   "entropy": 4.8265,
+   "mtime": 1778264325
+  },
+  {
+   "path": "Documents/College/Python_notes.docx",
+   "kind": "docx",
+   "size": 1231,
+   "sha256": "c3b43c9872034b3ddb7c0fa6cf467d8a9c6d494c894057f29cc582548ebe578b",
+   "entropy": 7.3854,
+   "mtime": 1785862729
+  },
+  {
+   "path": "Documents/College/Python_assignment.pdf",
+   "kind": "pdf",
+   "size": 698,
+   "sha256": "c1eb5c13b9e803da4acf0aa219137be57b862f5ff5077f3577d833e2351074b3",
+   "entropy": 4.8651,
+   "mtime": 1778847217
+  },
+  {
+   "path": "Documents/College/Physics_notes.docx",
+   "kind": "docx",
+   "size": 1310,
+   "sha256": "449ce3d665cbe78834c18c158160f07997ab17b4e12addc8983a11e2804f9e85",
+   "entropy": 7.4403,
+   "mtime": 1788824019
+  },
+  {
+   "path": "Documents/College/Physics_assignment.pdf",
+   "kind": "pdf",
+   "size": 699,
+   "sha256": "3857cf8ab6b93cace876c7161f6b08c4c4730adf02365e7f7c787d4b9c74dcde",
+   "entropy": 4.8676,
+   "mtime": 1777867094
+  },
+  {
+   "path": "Documents/College/Digital Logic_notes.docx",
+   "kind": "docx",
+   "size": 1553,
+   "sha256": "747a5d42a996698f760c4dff085d0bea8c7626a5bbe81a4328d93d6b48763a40",
+   "entropy": 7.5765,
+   "mtime": 1783674207
+  },
+  {
+   "path": "Documents/College/Digital Logic_assignment.pdf",
+   "kind": "pdf",
+   "size": 705,
+   "sha256": "cdcc33c58c2866a52d8033c2bc4d61d4e8237ffd52941466ac606ac0d89e08dd",
+   "entropy": 4.8505,
+   "mtime": 1791177258
+  },
+  {
+   "path": "Documents/College/Java_notes.docx",
+   "kind": "docx",
+   "size": 1541,
+   "sha256": "9315c1ddb2f39a3ba09aeb508dde47071f2939d9dd5450b7289e1f5d7435ad08",
+   "entropy": 7.5675,
+   "mtime": 1791554454
+  },
+  {
+   "path": "Documents/College/Java_assignment.pdf",
+   "kind": "pdf",
+   "size": 696,
+   "sha256": "8b8a88bd10f36cda7353037c54656818b5b03027c23d24ea40bbbffa9b09fb0e",
+   "entropy": 4.8499,
+   "mtime": 1791773350
+  },
+  {
+   "path": "Documents/Personal/journal_1.txt",
+   "kind": "txt",
+   "size": 3385,
+   "sha256": "9dcf8bbf43edd67a8960520297ed01eafa5da6f9fb8cecda1478a101318ae571",
+   "entropy": 4.2613,
+   "mtime": 1771441279
+  },
+  {
+   "path": "Documents/Personal/journal_2.txt",
+   "kind": "txt",
+   "size": 3381,
+   "sha256": "10e389dfb670defb65a6a9103fa9f2d39a8ae45d1f2bcef3f04a1a1f7d6adc95",
+   "entropy": 4.2751,
+   "mtime": 1771034997
+  },
+  {
+   "path": "Documents/Personal/journal_3.txt",
+   "kind": "txt",
+   "size": 3443,
+   "sha256": "8b67d0b09b2e2cda5be4d75d5678670c10786b9c386047724c53b14d00da8d70",
+   "entropy": 4.2879,
+   "mtime": 1780314965
+  },
+  {
+   "path": "Documents/Personal/journal_4.txt",
+   "kind": "txt",
+   "size": 3365,
+   "sha256": "706deb069fa872605897af0b983be958514f4fa3ea2190456537326afb02190c",
+   "entropy": 4.2854,
+   "mtime": 1770596774
+  },
+  {
+   "path": "Documents/Personal/journal_5.txt",
+   "kind": "txt",
+   "size": 3410,
+   "sha256": "a61bc336bf42461d7345e1f21e0e3b94b47bf792b6b31571ecbe7625b7031d8d",
+   "entropy": 4.2703,
+   "mtime": 1775792494
+  },
+  {
+   "path": "Documents/Personal/journal_6.txt",
+   "kind": "txt",
+   "size": 3438,
+   "sha256": "29a01dbe096ad4bd61c65d181a9e1a442b36e064b4ef7a07626125e333428904",
+   "entropy": 4.2807,
+   "mtime": 1788597094
+  },
+  {
+   "path": "Documents/Personal/budget_2026.csv",
+   "kind": "csv",
+   "size": 211,
+   "sha256": "6db808133948f356d540d8b4992556467c84fa6647496de5f59a3df72a98e673",
+   "entropy": 3.9296,
+   "mtime": 1790076103
+  },
+  {
+   "path": "Documents/Personal/passwords_DUMMY.txt",
+   "kind": "txt",
+   "size": 81,
+   "sha256": "ea8b99883ecb26540754ae45440f77cd89b7385188dfd4141ed599e3d99ddf50",
+   "entropy": 4.5153,
+   "mtime": 1790076103
+  },
+  {
+   "path": "Download/receipt_1.pdf",
+   "kind": "pdf",
+   "size": 690,
+   "sha256": "2b970fa3e844d0443f0fc0a9dbcb0ec2c3a6f139b4cbc0337ba22d46031b49ac",
+   "entropy": 4.8545,
+   "mtime": 1787120877
+  },
+  {
+   "path": "Download/receipt_2.pdf",
+   "kind": "pdf",
+   "size": 690,
+   "sha256": "ec57e9b9e4e1baaa6b6d8972ea2ec7ab92fea3d1b27636967e19bc346e97d9f7",
+   "entropy": 4.8422,
+   "mtime": 1786608350
+  },
+  {
+   "path": "Download/receipt_3.pdf",
+   "kind": "pdf",
+   "size": 690,
+   "sha256": "ae9c2f2f5d241a3edd73d9da65120069a621d2053889904a4195dd1d0c45c65e",
+   "entropy": 4.8553,
+   "mtime": 1780550894
+  },
+  {
+   "path": "Download/receipt_4.pdf",
+   "kind": "pdf",
+   "size": 690,
+   "sha256": "143e6d137aae2be29d98ba9cef6599e2f27a75dfc6fb020f64c22c10b674f5a9",
+   "entropy": 4.8474,
+   "mtime": 1788550219
+  },
+  {
+   "path": "Download/receipt_5.pdf",
+   "kind": "pdf",
+   "size": 690,
+   "sha256": "aeecef907a36186a1d34f9807181c93e3e34e0ea70977df418524980954209db",
+   "entropy": 4.8477,
+   "mtime": 1785679994
+  },
+  {
+   "path": "Download/receipt_6.pdf",
+   "kind": "pdf",
+   "size": 690,
+   "sha256": "b73edfdd21b9872fc14b3a813e5bc2e9803fe86a7012ac4bd311edaf1952c5ba",
+   "entropy": 4.8441,
+   "mtime": 1784413226
+  },
+  {
+   "path": "Download/archive_1.zip",
+   "kind": "zip",
+   "size": 20440,
+   "sha256": "1e3044ccab91bf28a0841446128d31bf74e6a63620e8bf46eb18a49d4090fbd4",
+   "entropy": 7.9882,
+   "mtime": 1783772042
+  },
+  {
+   "path": "Download/archive_2.zip",
+   "kind": "zip",
+   "size": 20436,
+   "sha256": "67669fdd585ac81b56e9db59b56e7f786f94878667d29f84a201caf9fdcd480f",
+   "entropy": 7.9875,
+   "mtime": 1784341235
+  },
+  {
+   "path": "Download/archive_3.zip",
+   "kind": "zip",
+   "size": 20429,
+   "sha256": "9f41a357b29145a9a69dbb3926c491862d42e6bc9e661fd5518ff4b6c7ce3eab",
+   "entropy": 7.9891,
+   "mtime": 1785930096
+  },
+  {
+   "path": "Music/track_01.mp3",
+   "kind": "mp3",
+   "size": 751630,
+   "sha256": "95b9b6f3660b6f341ab7330d56e1e0d6db38695539199348e9e6c53360d03304",
+   "entropy": 7.9998,
+   "mtime": 1775923343
+  },
+  {
+   "path": "Music/track_02.mp3",
+   "kind": "mp3",
+   "size": 506894,
+   "sha256": "674e4bf65c82b1cccaa5c328d547bd15d223183cb07f0299cdc470ef585e7b97",
+   "entropy": 7.9996,
+   "mtime": 1788196884
+  },
+  {
+   "path": "Music/track_03.mp3",
+   "kind": "mp3",
+   "size": 658446,
+   "sha256": "26881bb755abb9d65d10f51be937c59bca71bb38285008ca08b97761d07443b4",
+   "entropy": 7.9997,
+   "mtime": 1771729747
+  },
+  {
+   "path": "Music/track_04.mp3",
+   "kind": "mp3",
+   "size": 401422,
+   "sha256": "fc404895dd76dc2756c357b145f0cdb77c708c2cec661e970fe01d127094baa3",
+   "entropy": 7.9996,
+   "mtime": 1768303393
+  },
+  {
+   "path": "Music/track_05.mp3",
+   "kind": "mp3",
+   "size": 588814,
+   "sha256": "347ace96193834f60ccf65002fe18746150fa93ee3c5726470094351d50ede18",
+   "entropy": 7.9997,
+   "mtime": 1764926345
+  },
+  {
+   "path": "Music/track_06.mp3",
+   "kind": "mp3",
+   "size": 563214,
+   "sha256": "93b6a2350a3d748aa4b966fb91edc1ab5fc929bf5c8e185877bc4267787d6935",
+   "entropy": 7.9997,
+   "mtime": 1786975248
+  },
+  {
+   "path": "Music/track_07.mp3",
+   "kind": "mp3",
+   "size": 622606,
+   "sha256": "63f6f1813849c83ebdf871195a4a19747e48d35f6da971429a4031861100e4b5",
+   "entropy": 7.9997,
+   "mtime": 1777403867
+  },
+  {
+   "path": "Music/track_08.mp3",
+   "kind": "mp3",
+   "size": 488462,
+   "sha256": "b9d235df6a72114995323118e5b3940f37bd4d87227fea8ed9947c27c4d17857",
+   "entropy": 7.9996,
+   "mtime": 1788850586
+  },
+  {
+   "path": "Movies/clip_1.mp4",
+   "kind": "mp4",
+   "size": 942112,
+   "sha256": "f38f28f9b88ddf8c807485202197f007428e8f492c289c9ad24861617f33d071",
+   "entropy": 7.9998,
+   "mtime": 1780030508
+  },
+  {
+   "path": "Movies/clip_2.mp4",
+   "kind": "mp4",
+   "size": 1835040,
+   "sha256": "3de7e593ec94ecbd7badf4cea7459f6c14b16247a4b73011c290705b187f1db8",
+   "entropy": 7.9998,
+   "mtime": 1770410809
+  },
+  {
+   "path": "Movies/clip_3.mp4",
+   "kind": "mp4",
+   "size": 1660960,
+   "sha256": "6d3c7346222f6e89e62167ee5570a861f829444afecccd7faedef51efa4b2a37",
+   "entropy": 7.9998,
+   "mtime": 1784932999
+  },
+  {
+   "path": "Backups/contacts.vcf",
+   "kind": "vcf",
+   "size": 1191,
+   "sha256": "5075afe3b515f20d9cdd018b9fa6185a00f33662627aa4ee7b11d99d969dd8c1",
+   "entropy": 5.0916,
+   "mtime": 1791507820
+  },
+  {
+   "path": "Backups/sms_backup.json",
+   "kind": "json",
+   "size": 17388,
+   "sha256": "a9338f92eb51535e8ba311b0a51e5f3c1d5b6896aea69ac7a7951b247e27244a",
+   "entropy": 4.8964,
+   "mtime": 1791507820
+  },
+  {
+   "path": "Backups/call_log.csv",
+   "kind": "csv",
+   "size": 2724,
+   "sha256": "b73224c06927c43d7f223a3c64d509b84a01957ead4d344efb5cb4f1704dbca9",
+   "entropy": 4.6935,
+   "mtime": 1791507820
+  },
+  {
+   "path": "Backups/notes.db",
+   "kind": "sqlite",
+   "size": 57344,
+   "sha256": "151ea955d609032d06b63f994c46d25676a1abe9268cef165a50f3c3de359de7",
+   "entropy": 4.7719,
+   "mtime": 1791507820
+  }
+ ]
+}

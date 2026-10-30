@@ -425,8 +425,8 @@
    "path": "Documents/College/DST_notes.docx",
    "kind": "docx",
    "size": 1388,
-   "sha256": "234989b472bbe3cdc97ce99d8a92fd113dc27477f0a1876b39bf398dc3430dea",
-   "entropy": 7.4994,
+   "sha256": "9c0b620d6487fad0eb5c30969ab67e2eef8a35f20abe7aea67c002694630f3b9",
+   "entropy": 7.4998,
    "mtime": 1781835367
   },
   {
@@ -441,8 +441,8 @@
    "path": "Documents/College/Maths_notes.docx",
    "kind": "docx",
    "size": 1453,
-   "sha256": "34d94ed83e9d744e804ed81285148eec7ab8c794e864cb555167c7a61a697df7",
-   "entropy": 7.5273,
+   "sha256": "a931013799d5e0442802eb63fc550785ed6c480e230737d040b6b2e9ca925a37",
+   "entropy": 7.5271,
    "mtime": 1785435171
   },
   {
@@ -457,7 +457,7 @@
    "path": "Documents/College/DBMS_notes.docx",
    "kind": "docx",
    "size": 1219,
-   "sha256": "11bb631e2f0d0ffc527d0c6b32846b63789b5e8c2a5f2ef0dbe72a5c747d6cf0",
+   "sha256": "590d48a3c189968e7a936d09dd58c69839dd98b3e7651ca5aa1f571f097bab85",
    "entropy": 7.4148,
    "mtime": 1790170938
   },
@@ -473,8 +473,8 @@
    "path": "Documents/College/OS_notes.docx",
    "kind": "docx",
    "size": 1229,
-   "sha256": "39fa5b0963410b65039ab34cad24047401eda36253020d0e4bf37dfcc209c5de",
-   "entropy": 7.4213,
+   "sha256": "1cf57c542cdc5dbf3ce3d0d3743a0a65d3afb7be6675537241a0fb651a78b52c",
+   "entropy": 7.4208,
    "mtime": 1783487408
   },
   {
@@ -489,8 +489,8 @@
    "path": "Documents/College/Python_notes.docx",
    "kind": "docx",
    "size": 1231,
-   "sha256": "c3b43c9872034b3ddb7c0fa6cf467d8a9c6d494c894057f29cc582548ebe578b",
-   "entropy": 7.3854,
+   "sha256": "517a71f638ee270728e1bd8874497294247260aab4319168f6a05d849a54ce5d",
+   "entropy": 7.3887,
    "mtime": 1785862729
   },
   {
@@ -505,8 +505,8 @@
    "path": "Documents/College/Physics_notes.docx",
    "kind": "docx",
    "size": 1310,
-   "sha256": "449ce3d665cbe78834c18c158160f07997ab17b4e12addc8983a11e2804f9e85",
-   "entropy": 7.4403,
+   "sha256": "d89cd84c772e5c80fed02726cea05171746d2ce039c6741178e88513eecaccff",
+   "entropy": 7.4364,
    "mtime": 1788824019
   },
   {
@@ -521,8 +521,8 @@
    "path": "Documents/College/Digital Logic_notes.docx",
    "kind": "docx",
    "size": 1553,
-   "sha256": "747a5d42a996698f760c4dff085d0bea8c7626a5bbe81a4328d93d6b48763a40",
-   "entropy": 7.5765,
+   "sha256": "e8189bc7c3e09b97d1e396b5202654db8ddb5b20d5ba0065d232afcd598d6276",
+   "entropy": 7.5773,
    "mtime": 1783674207
   },
   {
@@ -537,8 +537,8 @@
    "path": "Documents/College/Java_notes.docx",
    "kind": "docx",
    "size": 1541,
-   "sha256": "9315c1ddb2f39a3ba09aeb508dde47071f2939d9dd5450b7289e1f5d7435ad08",
-   "entropy": 7.5675,
+   "sha256": "6f81134a7f21da21d2c498e86b73a3a3c33063e10edeeb46376d8bd44d236a3f",
+   "entropy": 7.5702,
    "mtime": 1791554454
   },
   {
@@ -665,7 +665,7 @@
    "path": "Download/archive_1.zip",
    "kind": "zip",
    "size": 20440,
-   "sha256": "1e3044ccab91bf28a0841446128d31bf74e6a63620e8bf46eb18a49d4090fbd4",
+   "sha256": "7920edeac1b7d07025624dbf090bd26343a5cadd230597a7ed59fadda21ba3b5",
    "entropy": 7.9882,
    "mtime": 1783772042
   },
@@ -673,15 +673,15 @@
    "path": "Download/archive_2.zip",
    "kind": "zip",
    "size": 20436,
-   "sha256": "67669fdd585ac81b56e9db59b56e7f786f94878667d29f84a201caf9fdcd480f",
-   "entropy": 7.9875,
+   "sha256": "0c16d75c6f7c30d92b46e1fc1f5c2359be95a59e78364b44ed3fc7e3b12df174",
+   "entropy": 7.9876,
    "mtime": 1784341235
   },
   {
    "path": "Download/archive_3.zip",
    "kind": "zip",
    "size": 20429,
-   "sha256": "9f41a357b29145a9a69dbb3926c491862d42e6bc9e661fd5518ff4b6c7ce3eab",
+   "sha256": "a292980310dd31b8a2f51378c558af182d422fa798cb9b27c210c602c0f0d6b4",
    "entropy": 7.9891,
    "mtime": 1785930096
   },

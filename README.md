@@ -19,6 +19,9 @@ The application provides a dashboard for monitoring a dedicated lab directory, r
 ## Team Introduction Video
 YouTube: https://www.youtube.com/watch?v=04T-SjmQzE4
 
+## 🎥 Prototype Demo Video
+YouTube: https://youtu.be/modn-y5I6U8
+
 
 # Ransomware Radar: Behaviour-Based Detection in an Android Emulator Lab
 

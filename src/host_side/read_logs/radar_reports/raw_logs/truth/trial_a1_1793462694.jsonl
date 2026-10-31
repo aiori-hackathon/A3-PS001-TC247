@@ -1,0 +1,11 @@
+{"ts_ns":1793462694102351100,"run_id":"trial_a1_1793462694","workload":"A1","label":"attack","op":"start"}
+{"ts_ns":1793462694428669200,"run_id":"trial_a1_1793462694","workload":"A1","label":"attack","op":"overwrite","path":"/sdcard/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20260421-WA0079.jpg"}
+{"ts_ns":1793462694707297800,"run_id":"trial_a1_1793462694","workload":"A1","label":"attack","op":"overwrite","path":"/sdcard/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20260426-WA0296.jpg"}
+{"ts_ns":1793462695145668700,"run_id":"trial_a1_1793462694","workload":"A1","label":"attack","op":"overwrite","path":"/sdcard/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20260508-WA0448.jpg"}
+{"ts_ns":1793462695403940600,"run_id":"trial_a1_1793462694","workload":"A1","label":"attack","op":"overwrite","path":"/sdcard/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20260518-WA0978.jpg"}
+{"ts_ns":1793462695691161800,"run_id":"trial_a1_1793462694","workload":"A1","label":"attack","op":"overwrite","path":"/sdcard/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20260708-WA0783.jpg"}
+{"ts_ns":1793462695969588300,"run_id":"trial_a1_1793462694","workload":"A1","label":"attack","op":"overwrite","path":"/sdcard/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20260717-WA0098.jpg"}
+{"ts_ns":1793462696240595300,"run_id":"trial_a1_1793462694","workload":"A1","label":"attack","op":"overwrite","path":"/sdcard/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20260808-WA0311.jpg"}
+{"ts_ns":1793462696634533600,"run_id":"trial_a1_1793462694","workload":"A1","label":"attack","op":"overwrite","path":"/sdcard/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20260822-WA0345.jpg"}
+{"ts_ns":1793462696979102300,"run_id":"trial_a1_1793462694","workload":"A1","label":"attack","op":"overwrite","path":"/sdcard/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20260827-WA0868.jpg"}
+{"ts_ns":1793462697231200100,"run_id":"trial_a1_1793462694","workload":"A1","label":"attack","op":"overwrite","path":"/sdcard/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20260828-WA0417.jpg"}

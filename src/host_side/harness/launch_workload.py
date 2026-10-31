@@ -5,6 +5,7 @@ Safely resets /sdcard using the daemon's .resetting flag (so the always-on
 MonitorKt daemon never needs to restart) and launches any workload on the emulator.
 """
 import argparse, subprocess, sys, time
+from pathlib import Path
 
 WORKLOADS = {
     "A1":      ("A1",          "/data/local/tmp/workloads/A1_overwrite.sh",        ""),
@@ -27,7 +28,14 @@ def reset_dataset():
     adb("shell", "mkdir -p /data/local/tmp/radar_registry && touch /data/local/tmp/radar_registry/.resetting")
     adb("shell", "find /sdcard -name '*.locked' -o -name '*.enc' -o -name '*.tmp' -o -name 'README_RESTORE.txt' 2>/dev/null | xargs rm -f")
     adb("shell", "rm -rf /sdcard/Backups/run_* /sdcard/Backups/trial_*")
-    subprocess.run([sys.executable, "make_phone_env.py", "--push"], stdout=subprocess.DEVNULL)
+    # make_phone_env.py lives in ../make_phone_env and uses paths relative to its
+    # own folder, so run it from there (works from any current directory).
+    env_dir = Path(__file__).resolve().parent.parent / "make_phone_env"
+    r = subprocess.run([sys.executable, str(env_dir / "make_phone_env.py"), "--push"],
+                       cwd=str(env_dir), capture_output=True, text=True)
+    if r.returncode != 0:
+        print(f"[Reset] ERROR: make_phone_env.py --push failed:\n{r.stderr or r.stdout}")
+        sys.exit(1)
     time.sleep(0.4)
     adb("shell", "rm -f /data/local/tmp/radar_registry/.resetting")
     print("[Reset] Dataset clean (100 files ready).")

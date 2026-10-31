@@ -1,0 +1,21 @@
+{"ts_ns":1793462173324182600,"run_id":"trial_a2_1793462173","workload":"A2","label":"attack","op":"start"}
+{"ts_ns":1793462173586699300,"run_id":"trial_a2_1793462173","workload":"A2","label":"attack","op":"create","path":"/sdcard/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20260421-WA0079.jpg.enc"}
+{"ts_ns":1793462173778613200,"run_id":"trial_a2_1793462173","workload":"A2","label":"attack","op":"delete","path":"/sdcard/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20260421-WA0079.jpg"}
+{"ts_ns":1793462174032526900,"run_id":"trial_a2_1793462173","workload":"A2","label":"attack","op":"create","path":"/sdcard/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20260426-WA0296.jpg.enc"}
+{"ts_ns":1793462174251879300,"run_id":"trial_a2_1793462173","workload":"A2","label":"attack","op":"delete","path":"/sdcard/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20260426-WA0296.jpg"}
+{"ts_ns":1793462174568041700,"run_id":"trial_a2_1793462173","workload":"A2","label":"attack","op":"create","path":"/sdcard/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20260508-WA0448.jpg.enc"}
+{"ts_ns":1793462174776534600,"run_id":"trial_a2_1793462173","workload":"A2","label":"attack","op":"delete","path":"/sdcard/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20260508-WA0448.jpg"}
+{"ts_ns":1793462175020649600,"run_id":"trial_a2_1793462173","workload":"A2","label":"attack","op":"create","path":"/sdcard/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20260518-WA0978.jpg.enc"}
+{"ts_ns":1793462175224631600,"run_id":"trial_a2_1793462173","workload":"A2","label":"attack","op":"delete","path":"/sdcard/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20260518-WA0978.jpg"}
+{"ts_ns":1793462175554842900,"run_id":"trial_a2_1793462173","workload":"A2","label":"attack","op":"create","path":"/sdcard/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20260708-WA0783.jpg.enc"}
+{"ts_ns":1793462175691450700,"run_id":"trial_a2_1793462173","workload":"A2","label":"attack","op":"delete","path":"/sdcard/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20260708-WA0783.jpg"}
+{"ts_ns":1793462175945937700,"run_id":"trial_a2_1793462173","workload":"A2","label":"attack","op":"create","path":"/sdcard/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20260717-WA0098.jpg.enc"}
+{"ts_ns":1793462176111166200,"run_id":"trial_a2_1793462173","workload":"A2","label":"attack","op":"delete","path":"/sdcard/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20260717-WA0098.jpg"}
+{"ts_ns":1793462176379833300,"run_id":"trial_a2_1793462173","workload":"A2","label":"attack","op":"create","path":"/sdcard/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20260808-WA0311.jpg.enc"}
+{"ts_ns":1793462176570571900,"run_id":"trial_a2_1793462173","workload":"A2","label":"attack","op":"delete","path":"/sdcard/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20260808-WA0311.jpg"}
+{"ts_ns":1793462176863406800,"run_id":"trial_a2_1793462173","workload":"A2","label":"attack","op":"create","path":"/sdcard/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20260822-WA0345.jpg.enc"}
+{"ts_ns":1793462177114507200,"run_id":"trial_a2_1793462173","workload":"A2","label":"attack","op":"delete","path":"/sdcard/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20260822-WA0345.jpg"}
+{"ts_ns":1793462177532421600,"run_id":"trial_a2_1793462173","workload":"A2","label":"attack","op":"create","path":"/sdcard/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20260827-WA0868.jpg.enc"}
+{"ts_ns":1793462177799281700,"run_id":"trial_a2_1793462173","workload":"A2","label":"attack","op":"delete","path":"/sdcard/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20260827-WA0868.jpg"}
+{"ts_ns":1793462178100226900,"run_id":"trial_a2_1793462173","workload":"A2","label":"attack","op":"create","path":"/sdcard/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20260828-WA0417.jpg.enc"}
+{"ts_ns":1793462178322022300,"run_id":"trial_a2_1793462173","workload":"A2","label":"attack","op":"delete","path":"/sdcard/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20260828-WA0417.jpg"}

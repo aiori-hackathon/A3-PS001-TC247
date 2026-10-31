@@ -1,0 +1,83 @@
+{"ts_ns":1793460222643459100,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"start"}
+{"ts_ns":1793460222735340000,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"create","path":"/sdcard/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20260421-WA0079.jpg.enc"}
+{"ts_ns":1793460222798367000,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"delete","path":"/sdcard/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20260421-WA0079.jpg"}
+{"ts_ns":1793460222931408600,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"create","path":"/sdcard/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20260426-WA0296.jpg.enc"}
+{"ts_ns":1793460223006496800,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"delete","path":"/sdcard/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20260426-WA0296.jpg"}
+{"ts_ns":1793460223151617100,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"create","path":"/sdcard/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20260508-WA0448.jpg.enc"}
+{"ts_ns":1793460223232762300,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"delete","path":"/sdcard/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20260508-WA0448.jpg"}
+{"ts_ns":1793460223376783800,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"create","path":"/sdcard/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20260518-WA0978.jpg.enc"}
+{"ts_ns":1793460223454497400,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"delete","path":"/sdcard/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20260518-WA0978.jpg"}
+{"ts_ns":1793460223585525700,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"create","path":"/sdcard/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20260708-WA0783.jpg.enc"}
+{"ts_ns":1793460223661403000,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"delete","path":"/sdcard/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20260708-WA0783.jpg"}
+{"ts_ns":1793460223805768600,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"create","path":"/sdcard/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20260717-WA0098.jpg.enc"}
+{"ts_ns":1793460223881959700,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"delete","path":"/sdcard/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20260717-WA0098.jpg"}
+{"ts_ns":1793460224024962200,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"create","path":"/sdcard/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20260808-WA0311.jpg.enc"}
+{"ts_ns":1793460224091579100,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"delete","path":"/sdcard/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20260808-WA0311.jpg"}
+{"ts_ns":1793460224232342300,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"create","path":"/sdcard/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20260822-WA0345.jpg.enc"}
+{"ts_ns":1793460224304401900,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"delete","path":"/sdcard/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20260822-WA0345.jpg"}
+{"ts_ns":1793460224457642400,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"create","path":"/sdcard/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20260827-WA0868.jpg.enc"}
+{"ts_ns":1793460224519120200,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"delete","path":"/sdcard/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20260827-WA0868.jpg"}
+{"ts_ns":1793460224666154000,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"create","path":"/sdcard/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20260828-WA0417.jpg.enc"}
+{"ts_ns":1793460224728322300,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"delete","path":"/sdcard/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20260828-WA0417.jpg"}
+{"ts_ns":1793460224876140700,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"create","path":"/sdcard/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20260905-WA0681.jpg.enc"}
+{"ts_ns":1793460224963452400,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"delete","path":"/sdcard/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20260905-WA0681.jpg"}
+{"ts_ns":1793460225110417300,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"create","path":"/sdcard/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20261006-WA0922.jpg.enc"}
+{"ts_ns":1793460225179990400,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"delete","path":"/sdcard/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20261006-WA0922.jpg"}
+{"ts_ns":1793460225337453000,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"create","path":"/sdcard/Backups/call_log.csv.enc"}
+{"ts_ns":1793460225411631500,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"delete","path":"/sdcard/Backups/call_log.csv"}
+{"ts_ns":1793460225560496400,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"create","path":"/sdcard/Backups/contacts.vcf.enc"}
+{"ts_ns":1793460225630065600,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"delete","path":"/sdcard/Backups/contacts.vcf"}
+{"ts_ns":1793460225776447300,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"create","path":"/sdcard/Backups/notes.db.enc"}
+{"ts_ns":1793460225854762800,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"delete","path":"/sdcard/Backups/notes.db"}
+{"ts_ns":1793460226006572100,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"create","path":"/sdcard/Backups/sms_backup.json.enc"}
+{"ts_ns":1793460226084525700,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"delete","path":"/sdcard/Backups/sms_backup.json"}
+{"ts_ns":1793460226233683700,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"create","path":"/sdcard/DCIM/Camera/IMG_20251027_081107.jpg.enc"}
+{"ts_ns":1793460226302593800,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"delete","path":"/sdcard/DCIM/Camera/IMG_20251027_081107.jpg"}
+{"ts_ns":1793460226447792200,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"create","path":"/sdcard/DCIM/Camera/IMG_20251031_020220.jpg.enc"}
+{"ts_ns":1793460226522179800,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"delete","path":"/sdcard/DCIM/Camera/IMG_20251031_020220.jpg"}
+{"ts_ns":1793460226699847600,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"create","path":"/sdcard/DCIM/Camera/IMG_20251107_084011.jpg.enc"}
+{"ts_ns":1793460226771353100,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"delete","path":"/sdcard/DCIM/Camera/IMG_20251107_084011.jpg"}
+{"ts_ns":1793460226924222700,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"create","path":"/sdcard/DCIM/Camera/IMG_20251109_041846.jpg.enc"}
+{"ts_ns":1793460227003133200,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"delete","path":"/sdcard/DCIM/Camera/IMG_20251109_041846.jpg"}
+{"ts_ns":1793460227158119300,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"create","path":"/sdcard/DCIM/Camera/IMG_20251208_111557.jpg.enc"}
+{"ts_ns":1793460227224075800,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"delete","path":"/sdcard/DCIM/Camera/IMG_20251208_111557.jpg"}
+{"ts_ns":1793460227413569400,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"create","path":"/sdcard/DCIM/Camera/IMG_20251226_104850.jpg.enc"}
+{"ts_ns":1793460227525659000,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"delete","path":"/sdcard/DCIM/Camera/IMG_20251226_104850.jpg"}
+{"ts_ns":1793460227683486300,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"create","path":"/sdcard/DCIM/Camera/IMG_20260109_045713.jpg.enc"}
+{"ts_ns":1793460227755476200,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"delete","path":"/sdcard/DCIM/Camera/IMG_20260109_045713.jpg"}
+{"ts_ns":1793460227922212000,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"create","path":"/sdcard/DCIM/Camera/IMG_20260110_221059.jpg.enc"}
+{"ts_ns":1793460227995654800,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"delete","path":"/sdcard/DCIM/Camera/IMG_20260110_221059.jpg"}
+{"ts_ns":1793460228154711500,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"create","path":"/sdcard/DCIM/Camera/IMG_20260130_160453.jpg.enc"}
+{"ts_ns":1793460228237555800,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"delete","path":"/sdcard/DCIM/Camera/IMG_20260130_160453.jpg"}
+{"ts_ns":1793460228382655100,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"create","path":"/sdcard/DCIM/Camera/IMG_20260210_195006.jpg.enc"}
+{"ts_ns":1793460228451791100,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"delete","path":"/sdcard/DCIM/Camera/IMG_20260210_195006.jpg"}
+{"ts_ns":1793460228603410000,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"create","path":"/sdcard/DCIM/Camera/IMG_20260219_130734.jpg.enc"}
+{"ts_ns":1793460228686332600,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"delete","path":"/sdcard/DCIM/Camera/IMG_20260219_130734.jpg"}
+{"ts_ns":1793460228845705700,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"create","path":"/sdcard/DCIM/Camera/IMG_20260301_000627.jpg.enc"}
+{"ts_ns":1793460228930629400,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"delete","path":"/sdcard/DCIM/Camera/IMG_20260301_000627.jpg"}
+{"ts_ns":1793460229078709000,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"create","path":"/sdcard/DCIM/Camera/IMG_20260331_142246.jpg.enc"}
+{"ts_ns":1793460229167435100,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"delete","path":"/sdcard/DCIM/Camera/IMG_20260331_142246.jpg"}
+{"ts_ns":1793460229314747000,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"create","path":"/sdcard/DCIM/Camera/IMG_20260424_054320.jpg.enc"}
+{"ts_ns":1793460229384638700,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"delete","path":"/sdcard/DCIM/Camera/IMG_20260424_054320.jpg"}
+{"ts_ns":1793460229526611600,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"create","path":"/sdcard/DCIM/Camera/IMG_20260427_123101.jpg.enc"}
+{"ts_ns":1793460229602573700,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"delete","path":"/sdcard/DCIM/Camera/IMG_20260427_123101.jpg"}
+{"ts_ns":1793460229752324200,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"create","path":"/sdcard/DCIM/Camera/IMG_20260427_212137.jpg.enc"}
+{"ts_ns":1793460229820424300,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"delete","path":"/sdcard/DCIM/Camera/IMG_20260427_212137.jpg"}
+{"ts_ns":1793460229973081000,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"create","path":"/sdcard/DCIM/Camera/IMG_20260530_215222.jpg.enc"}
+{"ts_ns":1793460230048473200,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"delete","path":"/sdcard/DCIM/Camera/IMG_20260530_215222.jpg"}
+{"ts_ns":1793460230200635900,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"create","path":"/sdcard/DCIM/Camera/IMG_20260607_012441.jpg.enc"}
+{"ts_ns":1793460230274728600,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"delete","path":"/sdcard/DCIM/Camera/IMG_20260607_012441.jpg"}
+{"ts_ns":1793460230429218100,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"create","path":"/sdcard/DCIM/Camera/IMG_20260615_015515.jpg.enc"}
+{"ts_ns":1793460230499249100,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"delete","path":"/sdcard/DCIM/Camera/IMG_20260615_015515.jpg"}
+{"ts_ns":1793460230702963900,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"create","path":"/sdcard/DCIM/Camera/IMG_20260622_201343.jpg.enc"}
+{"ts_ns":1793460230791784600,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"delete","path":"/sdcard/DCIM/Camera/IMG_20260622_201343.jpg"}
+{"ts_ns":1793460230949481800,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"create","path":"/sdcard/DCIM/Camera/IMG_20260626_102623.jpg.enc"}
+{"ts_ns":1793460231040317900,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"delete","path":"/sdcard/DCIM/Camera/IMG_20260626_102623.jpg"}
+{"ts_ns":1793460231222103700,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"create","path":"/sdcard/DCIM/Camera/IMG_20260628_162250.jpg.enc"}
+{"ts_ns":1793460231297922200,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"delete","path":"/sdcard/DCIM/Camera/IMG_20260628_162250.jpg"}
+{"ts_ns":1793460231444636200,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"create","path":"/sdcard/DCIM/Camera/IMG_20260703_041918.jpg.enc"}
+{"ts_ns":1793460231537771400,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"delete","path":"/sdcard/DCIM/Camera/IMG_20260703_041918.jpg"}
+{"ts_ns":1793460231704443300,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"create","path":"/sdcard/DCIM/Camera/IMG_20260709_021521.jpg.enc"}
+{"ts_ns":1793460231787467200,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"delete","path":"/sdcard/DCIM/Camera/IMG_20260709_021521.jpg"}
+{"ts_ns":1793460231924173300,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"create","path":"/sdcard/DCIM/Camera/README_RESTORE.txt"}
+{"ts_ns":1793460231998046500,"run_id":"trial_a2_1793460223","workload":"A2","label":"attack","op":"end"}
